@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1,
+    "group": "strings",
+    "cls": "WordCount",
+    "title": "Count words",
+    "status": "Reported \u00b7 Berlin SE2/SSE1 and SE II",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/strings/p01",
+    "minutes": 15,
+    "cases": 6
+  },
+  {
+    "id": 2,
+    "group": "strings",
+    "cls": "PatternWords",
+    "title": "Find words with the same repetition pattern",
+    "status": "Reported \u00b7 Berlin SE II",
+    "sources": [
+      "S2"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/strings/p02",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 3,
+    "group": "strings",
+    "cls": "OcrCompatibility",
+    "title": "Compare OCR strings with unknown runs",
+    "status": "Reported \u00b7 Berlin SE2/SSE1; grammar reconstructed",
+    "sources": [
+      "S1"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/strings/p03",
+    "minutes": 40,
+    "cases": 7
+  },
+  {
+    "id": 4,
+    "group": "arrays",
+    "cls": "MaximumSubarray",
+    "title": "Maximum contiguous subarray sum",
+    "status": "Reported \u00b7 Berlin SE2/SSE1",
+    "sources": [
+      "S1"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/arrays/p04",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 5,
+    "group": "heaps",
+    "cls": "KthLargest",
+    "title": "Largest, second-largest and kth-largest",
+    "status": "Reported \u00b7 Berlin SE II; duplicate policy added",
+    "sources": [
+      "S2"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/heaps/p05",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 6,
+    "group": "arrays",
+    "cls": "BriefcaseLock",
+    "title": "Minimum rotations of a combination lock",
+    "status": "Reported \u00b7 Berlin senior Go; wheel rules reconstructed",
+    "sources": [
+      "S3"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/arrays/p06",
+    "minutes": 15,
+    "cases": 5
+  },
+  {
+    "id": 7,
+    "group": "arrays",
+    "cls": "ChunkSort",
+    "title": "Sort each consecutive chunk",
+    "status": "Reported \u00b7 Berlin senior Go; ambiguous wording adapted",
+    "sources": [
+      "S3"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/arrays/p07",
+    "minutes": 25,
+    "cases": 6
+  },
+  {
+    "id": 8,
+    "group": "heaps",
+    "cls": "StreamingMedian",
+    "title": "Maintain the median of a stream",
+    "status": "Reported \u00b7 Berlin senior Go",
+    "sources": [
+      "S3"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/heaps/p08",
+    "minutes": 40,
+    "cases": 6
+  },
+  {
+    "id": 9,
+    "group": "practical",
+    "cls": "OrderApi",
+    "title": "Build two order API operations",
+    "status": "Adapted \u00b7 Berlin SE II report names two REST APIs, no endpoints",
+    "sources": [
+      "S4"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/practical/p09",
+    "minutes": 45,
+    "cases": 6
+  },
+  {
+    "id": 10,
+    "group": "practical",
+    "cls": "SlidingWindowLimiter",
+    "title": "Per-client sliding-window rate limiter",
+    "status": "Adapted \u00b7 Berlin API-abuse follow-up; algorithm not specified",
+    "sources": [
+      "S4"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/practical/p10",
+    "minutes": 40,
+    "cases": 5
+  },
+  {
+    "id": 11,
+    "group": "strings",
+    "cls": "ValidAbbreviation",
+    "title": "Validate a word abbreviation",
+    "status": "Related-role report \u00b7 senior automation, location not established",
+    "sources": [
+      "S6"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/strings/p11",
+    "minutes": 25,
+    "cases": 7
+  },
+  {
+    "id": 12,
+    "group": "recursion",
+    "cls": "CamelCaseMap",
+    "title": "Convert nested map keys to camelCase",
+    "status": "Related-company report \u00b7 Glovo Spain; Java attempt",
+    "sources": [
+      "S5"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/recursion/p12",
+    "minutes": 35,
+    "cases": 6
+  },
+  {
+    "id": 13,
+    "group": "arrays",
+    "cls": "LimitDuplicates",
+    "title": "Keep at most two copies in a sorted array",
+    "status": "Adapted \u00b7 older SE II report; original wording ambiguous",
+    "sources": [
+      "S7"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/arrays/p13",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 14,
+    "group": "hashing",
+    "cls": "TwoSum",
+    "title": "Find two indices for a target",
+    "status": "Reported \u00b7 Delivery Hero mid-level Android",
+    "sources": [
+      "S18"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/hashing/p14",
+    "minutes": 20,
+    "cases": 5
+  },
+  {
+    "id": 15,
+    "group": "sliding_window",
+    "cls": "LongestUniqueSubstring",
+    "title": "Longest substring without repeated characters",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/sliding_window/p15",
+    "minutes": 25,
+    "cases": 6
+  },
+  {
+    "id": 16,
+    "group": "hashing",
+    "cls": "SubarraySum",
+    "title": "Count subarrays with a target sum",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/hashing/p16",
+    "minutes": 25,
+    "cases": 6
+  },
+  {
+    "id": 17,
+    "group": "intervals",
+    "cls": "MergeIntervals",
+    "title": "Merge closed intervals",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/intervals/p17",
+    "minutes": 25,
+    "cases": 6
+  },
+  {
+    "id": 18,
+    "group": "intervals",
+    "cls": "MeetingRooms",
+    "title": "Minimum simultaneous meeting rooms",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/intervals/p18",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 19,
+    "group": "binary_search",
+    "cls": "LowerBound",
+    "title": "First position at least the target",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/binary_search/p19",
+    "minutes": 20,
+    "cases": 6
+  },
+  {
+    "id": 20,
+    "group": "binary_search",
+    "cls": "MinimumProcessingRate",
+    "title": "Minimum rate to finish independent batches",
+    "status": "Recommended \u00b7 Koko-style pattern",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/binary_search/p20",
+    "minutes": 35,
+    "cases": 5
+  },
+  {
+    "id": 21,
+    "group": "stacks",
+    "cls": "ValidBrackets",
+    "title": "Validate bracket nesting",
+    "status": "Reported \u00b7 Glovo senior software engineer",
+    "sources": [
+      "S15"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/stacks/p21",
+    "minutes": 20,
+    "cases": 6
+  },
+  {
+    "id": 22,
+    "group": "stacks",
+    "cls": "DecodeString",
+    "title": "Decode nested repetitions",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/stacks/p22",
+    "minutes": 35,
+    "cases": 6
+  },
+  {
+    "id": 23,
+    "group": "linked_lists",
+    "cls": "ReverseList",
+    "title": "Reverse a singly linked list",
+    "status": "Reported \u00b7 foodpanda software engineer, Singapore",
+    "sources": [
+      "S17"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/linked_lists/p23",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 24,
+    "group": "linked_lists",
+    "cls": "LruCache",
+    "title": "Implement an LRU cache",
+    "status": "Recommended \u00b7 cache design pattern",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/linked_lists/p24",
+    "minutes": 45,
+    "cases": 6
+  },
+  {
+    "id": 25,
+    "group": "trees",
+    "cls": "RangeSumBst",
+    "title": "Sum a BST value range",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/trees/p25",
+    "minutes": 25,
+    "cases": 6
+  },
+  {
+    "id": 26,
+    "group": "trees",
+    "cls": "LevelOrder",
+    "title": "Traverse a binary tree level by level",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/trees/p26",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 27,
+    "group": "graphs",
+    "cls": "NumberOfIslands",
+    "title": "Count islands in a grid",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/graphs/p27",
+    "minutes": 25,
+    "cases": 6
+  },
+  {
+    "id": 28,
+    "group": "graphs",
+    "cls": "CourseSchedule",
+    "title": "Detect cyclic dependencies",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/graphs/p28",
+    "minutes": 35,
+    "cases": 6
+  },
+  {
+    "id": 29,
+    "group": "graphs",
+    "cls": "CloneGraph",
+    "title": "Deep-copy a graph with cycles",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/graphs/p29",
+    "minutes": 35,
+    "cases": 6
+  },
+  {
+    "id": 30,
+    "group": "dynamic_programming",
+    "cls": "CoinChange",
+    "title": "Minimum coins for an amount",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/dynamic_programming/p30",
+    "minutes": 35,
+    "cases": 6
+  },
+  {
+    "id": 31,
+    "group": "backtracking",
+    "cls": "WordSearch",
+    "title": "Find a word along a grid path",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/backtracking/p31",
+    "minutes": 40,
+    "cases": 6
+  },
+  {
+    "id": 32,
+    "group": "heaps",
+    "cls": "TopKFrequent",
+    "title": "Top k frequent values with deterministic ties",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/heaps/p32",
+    "minutes": 30,
+    "cases": 6
+  },
+  {
+    "id": 33,
+    "group": "arrays",
+    "cls": "SingleTradeProfit",
+    "title": "Maximum profit from one buy then sell",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/arrays/p33",
+    "minutes": 20,
+    "cases": 6
+  },
+  {
+    "id": 34,
+    "group": "practical",
+    "cls": "IdempotentOrders",
+    "title": "Create orders safely under duplicate retries",
+    "status": "Recommended \u00b7 related idempotency topic reported, task authored",
+    "sources": [
+      "S7"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/practical/p34",
+    "minutes": 45,
+    "cases": 5
+  },
+  {
+    "id": 35,
+    "group": "practical",
+    "cls": "EventDeduplicator",
+    "title": "Deduplicate events with an expiry window",
+    "status": "Recommended \u00b7 tailored to event-driven Java work",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/practical/p35",
+    "minutes": 40,
+    "cases": 6
+  },
+  {
+    "id": 36,
+    "group": "practical",
+    "cls": "InvoiceCalculator",
+    "title": "Debug a small invoice service",
+    "status": "Adapted \u00b7 Glovo report describes debugging, actual service undisclosed",
+    "sources": [
+      "S5"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/practical/p36",
+    "minutes": 30,
+    "cases": 7
+  },
+  {
+    "id": 37,
+    "group": "greedy",
+    "cls": "TwoCityScheduling",
+    "title": "Minimum cost with equal city quotas",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/greedy/p37",
+    "minutes": 30,
+    "cases": 5
+  },
+  {
+    "id": 38,
+    "group": "graphs",
+    "cls": "ShortestUnweightedPath",
+    "title": "Shortest route in an unweighted graph",
+    "status": "Recommended",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/graphs/p38",
+    "minutes": 30,
+    "cases": 6
+  },
+  {
+    "id": 39,
+    "group": "strings",
+    "cls": "MaskAlternateCharacters",
+    "title": "Mask every second character of each word",
+    "status": "Reported \u00b7 Delivery Hero Android; boundaries defined for practice",
+    "sources": [
+      "S12"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/strings/p39",
+    "minutes": 15,
+    "cases": 6
+  },
+  {
+    "id": 40,
+    "group": "arrays",
+    "cls": "MinMax",
+    "title": "Find minimum and maximum in one pass",
+    "status": "Reported \u00b7 Delivery Hero senior React",
+    "sources": [
+      "S10"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/arrays/p40",
+    "minutes": 10,
+    "cases": 5
+  },
+  {
+    "id": 41,
+    "group": "hashing",
+    "cls": "CollectionReconciler",
+    "title": "Plan inserts, updates and removals",
+    "status": "Adapted \u00b7 Delivery Hero senior React; reported example inconsistent",
+    "sources": [
+      "S10"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/hashing/p41",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 42,
+    "group": "recursion",
+    "cls": "FlattenNestedLists",
+    "title": "Flatten a nested list",
+    "status": "Reported \u00b7 Delivery Hero senior Python; recursive Java variant",
+    "sources": [
+      "S11"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/recursion/p42",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 43,
+    "group": "practical",
+    "cls": "InsertionOrderedSet",
+    "title": "Design a set with insertion order and stack-like pop",
+    "status": "Reported \u00b7 foodpanda principal engineer",
+    "sources": [
+      "S13"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/practical/p43",
+    "minutes": 45,
+    "cases": 6
+  },
+  {
+    "id": 44,
+    "group": "arrays",
+    "cls": "TheatreVisibility",
+    "title": "Can everyone see the theatre screen?",
+    "status": "Reported-topic \u00b7 Delivery Hero data engineer repost; attribution uncertain",
+    "sources": [
+      "S14"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/arrays/p44",
+    "minutes": 15,
+    "cases": 5
+  },
+  {
+    "id": 45,
+    "group": "hashing",
+    "cls": "OrderedCharacterCounts",
+    "title": "Character frequencies in first-seen order",
+    "status": "Reported-topic \u00b7 Delivery Hero data engineer repost; attribution uncertain",
+    "sources": [
+      "S14"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/hashing/p45",
+    "minutes": 15,
+    "cases": 5
+  },
+  {
+    "id": 46,
+    "group": "sql",
+    "cls": "SecondSalaryQuery",
+    "title": "Second distinct salary per department",
+    "status": "Adapted \u00b7 Delivery Hero data engineer salary-ranking report",
+    "sources": [
+      "S14"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/sql/p46",
+    "minutes": 30,
+    "cases": 5
+  },
+  {
+    "id": 47,
+    "group": "sql",
+    "cls": "CustomerOrderJoinQuery",
+    "title": "Join customers with their orders",
+    "status": "Adapted \u00b7 Delivery Hero senior Python SQL join report",
+    "sources": [
+      "S11"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/sql/p47",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 48,
+    "group": "hashing",
+    "cls": "AnagramCheck",
+    "title": "Check whether two strings are anagrams",
+    "status": "Reported \u00b7 Glovo senior software engineer",
+    "sources": [
+      "S15"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/hashing/p48",
+    "minutes": 15,
+    "cases": 6
+  },
+  {
+    "id": 49,
+    "group": "hashing",
+    "cls": "FirstUniqueCharacter",
+    "title": "First non-repeating character",
+    "status": "Recommended \u00b7 useful short string round",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/hashing/p49",
+    "minutes": 15,
+    "cases": 5
+  },
+  {
+    "id": 50,
+    "group": "stacks",
+    "cls": "DinnerPlateStacks",
+    "title": "Stacks with leftmost push and rightmost pop",
+    "status": "Reported \u00b7 Glovo SE2 Barcelona",
+    "sources": [
+      "S16"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/stacks/p50",
+    "minutes": 50,
+    "cases": 6
+  },
+  {
+    "id": 51,
+    "group": "strings",
+    "cls": "RunLengthCompression",
+    "title": "Compress consecutive character runs in-place",
+    "status": "Recommended \u00b7 secondary company-tag signal, not verified report",
+    "sources": [
+      "S22"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/strings/p51",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 52,
+    "group": "trees",
+    "cls": "CompleteBinaryTree",
+    "title": "Check completeness of a binary tree",
+    "status": "Recommended \u00b7 secondary company-tag signal, not verified report",
+    "sources": [
+      "S22"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/trees/p52",
+    "minutes": 25,
+    "cases": 6
+  },
+  {
+    "id": 53,
+    "group": "arrays",
+    "cls": "NextPermutation",
+    "title": "Next lexicographic permutation",
+    "status": "Recommended \u00b7 secondary company-tag signal, not verified report",
+    "sources": [
+      "S22"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/arrays/p53",
+    "minutes": 30,
+    "cases": 6
+  },
+  {
+    "id": 54,
+    "group": "greedy",
+    "cls": "MinimumJumps",
+    "title": "Fewest jumps to the last index",
+    "status": "Recommended \u00b7 Jump Game II pattern",
+    "sources": [
+      "S22"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/greedy/p54",
+    "minutes": 30,
+    "cases": 6
+  },
+  {
+    "id": 55,
+    "group": "binary_search",
+    "cls": "WeightedTicketPicker",
+    "title": "Map random tickets to weighted choices",
+    "status": "Recommended \u00b7 weighted random pick pattern",
+    "sources": [
+      "S22"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/binary_search/p55",
+    "minutes": 30,
+    "cases": 6
+  },
+  {
+    "id": 56,
+    "group": "graphs",
+    "cls": "WeightedShortestPath",
+    "title": "Shortest route with nonnegative travel times",
+    "status": "Recommended \u00b7 fills weighted-graph gap",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/graphs/p56",
+    "minutes": 40,
+    "cases": 6
+  },
+  {
+    "id": 57,
+    "group": "concurrency",
+    "cls": "BoundedBuffer",
+    "title": "Implement a bounded blocking FIFO queue",
+    "status": "Recommended \u00b7 Java translation of concurrency preparation",
+    "sources": [],
+    "path": "src/main/java/dev/practice/deliveryhero/concurrency/p57",
+    "minutes": 50,
+    "cases": 5
+  },
+  {
+    "id": 58,
+    "group": "practical",
+    "cls": "DeliveryPricing",
+    "title": "Extensible delivery pricing rules",
+    "status": "Adapted format \u00b7 HungerStation OOP/design-pattern coding; domain authored",
+    "sources": [
+      "S19"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/practical/p58",
+    "minutes": 40,
+    "cases": 6
+  },
+  {
+    "id": 59,
+    "group": "dynamic_programming",
+    "cls": "UniqueGridPaths",
+    "title": "Count right-and-down grid paths",
+    "status": "Recommended \u00b7 secondary company-tag signal, not verified report",
+    "sources": [
+      "S22"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/dynamic_programming/p59",
+    "minutes": 25,
+    "cases": 5
+  },
+  {
+    "id": 60,
+    "group": "dynamic_programming",
+    "cls": "KTransactionProfit",
+    "title": "Best profit with at most k trades",
+    "status": "Recommended \u00b7 advanced stock-state DP pattern",
+    "sources": [
+      "S22"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/dynamic_programming/p60",
+    "minutes": 45,
+    "cases": 7
+  }
+]
