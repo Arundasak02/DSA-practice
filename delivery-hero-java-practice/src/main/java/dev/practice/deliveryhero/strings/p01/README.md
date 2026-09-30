@@ -1,5 +1,9 @@
 # P01 — Count words
 
+**Priority:** A — **Learn first** · Study order 4/65.
+
+Reported word-count task in backend accounts; clarify boundaries and test.
+
 **Pattern:** strings · **Time box:** 15 minutes  
 **Evidence:** Reported · Berlin SE2/SSE1 and SE II. [S1](../../../../../../../../research/SOURCES.md#s1); [S2](../../../../../../../../research/SOURCES.md#s2)
 

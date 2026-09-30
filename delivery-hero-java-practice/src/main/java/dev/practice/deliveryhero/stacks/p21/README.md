@@ -1,5 +1,9 @@
 # P21 — Validate bracket nesting
 
+**Priority:** B — **Learn next** · Study order 22/65.
+
+Reported Glovo senior bracket validation; different company/team.
+
 **Pattern:** stacks · **Time box:** 20 minutes  
 **Evidence:** Reported · Glovo senior software engineer. [S15](../../../../../../../../research/SOURCES.md#s15)
 

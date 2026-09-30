@@ -1,5 +1,9 @@
 # P26 — Traverse a binary tree level by level
 
+**Priority:** LAST — **Learn last** · Study order 49/65.
+
+General interview coverage; no strong direct Delivery Hero evidence in the audit.
+
 **Pattern:** trees · **Time box:** 25 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

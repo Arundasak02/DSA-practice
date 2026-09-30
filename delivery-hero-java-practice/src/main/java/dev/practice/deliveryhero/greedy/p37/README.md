@@ -1,5 +1,9 @@
 # P37 — Minimum cost with equal city quotas
 
+**Priority:** LAST — **Learn last** · Study order 54/65.
+
+General interview coverage; no strong direct Delivery Hero evidence in the audit.
+
 **Pattern:** greedy · **Time box:** 30 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

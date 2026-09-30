@@ -1,5 +1,9 @@
 # P13 — Keep at most two copies in a sorted array
 
+**Priority:** B — **Learn next** · Study order 33/65.
+
+Ambiguous reported duplicate-removal wording; retaining two sorted copies is an adaptation.
+
 **Pattern:** arrays · **Time box:** 25 minutes  
 **Evidence:** Adapted · older SE II report; original wording ambiguous. [S7](../../../../../../../../research/SOURCES.md#s7)
 

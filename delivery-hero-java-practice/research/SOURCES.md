@@ -195,3 +195,43 @@ These establish familiar practice variants, not Delivery Hero attribution. Our l
 - Public secondary list retrieved; underlying interview records, locations, dates and percentage methodology not independently established.
 - Used only as a discovery signal for recommended exercises P51–P55 and P59–P60. These are NOT promoted to reported questions; frequency percentages are deliberately omitted.
 - Remaining useful titles are mapped in EXTENSION_BACKLOG.md. Selection priorities are curriculum judgments, not employer-provided rankings.
+
+
+## S23
+
+[Delivery Hero SDE 2 Java, Germany — candidate account](https://leetcode.com/discuss/post/8281420/)
+
+- Reopened September 30, 2026. Java/backend role; publication/interview year was not established from the retrieved page. Do not label it a verified 2026 interview.
+- Names a binary-search-based task and a simple continuously arriving stream task, without exact operations. P19 lower bound and P63 rolling average are adaptations, not recovered exact questions.
+- Also lists HAVING, range queries, locks, PostgreSQL/MySQL comparison, functional interfaces, OOP/SOLID, and Kafka partition/key and communication trade-offs. Supports SQL_DRILLS.md and backend discussion practice.
+
+## S24
+
+[camelCase to snake_case — Delivery Hero Senior Software Engineer, Glassdoor](https://www.glassdoor.co.uk/Interview/Q-Write-a-function-to-convert-camelCase-to-snake-case-QTN_6882053.htm)
+
+- Public question page reopened September 30, 2026; explicitly identifies Senior Software Engineer and the conversion task.
+- Supports P61. Acronyms, underscores, digits and null semantics are authored practice requirements; exact interview date not established.
+
+## S25
+
+[Reddit candidate comment reporting LFU cache](https://www.reddit.com/r/leetcode/comments/1f0foha/)
+
+- Search-retrieved first-person comment dated July 31, 2025 reports design/code of LFU in a Python-role interview. A preceding March comment mentions a mid-level application; Senior Java is not established.
+- Thread creation was August 2024; distinguish it from the later comment date and from the unverified interview date.
+- Supports P62 with related-role scope. Capacity rules and LRU tie-breaking are practice contracts. Does not establish LFU as more frequent than LRU.
+
+## S26
+
+[Delivery Hero duplicate-index Two Sum account — LeetCode](https://leetcode.com/discuss/post/1201101/delivery-hero-interview-question-no-idea-how-to-solve-atm/)
+
+- Public candidate text reopened September 30, 2026. Role and interview date not established.
+- Describes returning indices summing to a target from an unsorted array with duplicates. Its sample output is incomplete.
+- P64 chooses every unordered pair with i < j and an explicit deterministic output order. Those complete requirements are authored.
+
+## S27
+
+[Delivery Hero Senior SWE interview archive — Glassdoor](https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0,13_KO14,38.htm)
+
+- Public report reviewed January 30, 2026 describes a November 2025 Berlin interview with Python questions. It explicitly lists maximum element, Two Sum and Jump Game reachability.
+- Supports P14 Senior SWE evidence and P65. P54 minimum jumps remains a different, unverified variant. Java signatures and edge semantics are authored.
+- Public reports are self-reported; inaccessible archive entries remain unknown.

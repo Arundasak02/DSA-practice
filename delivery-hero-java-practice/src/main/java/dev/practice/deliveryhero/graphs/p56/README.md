@@ -1,5 +1,9 @@
 # P56 — Shortest route with nonnegative travel times
 
+**Priority:** LAST — **Learn last** · Study order 63/65.
+
+General weighted-graph coverage; no strong direct evidence.
+
 **Pattern:** graphs · **Time box:** 40 minutes  
 **Evidence:** Recommended · fills weighted-graph gap. Curriculum recommendation; not claimed as a Delivery Hero question.
 

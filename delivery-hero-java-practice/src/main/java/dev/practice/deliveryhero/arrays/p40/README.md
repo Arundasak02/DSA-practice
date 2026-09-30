@@ -1,5 +1,9 @@
 # P40 — Find minimum and maximum in one pass
 
+**Priority:** A — **Learn first** · Study order 9/65.
+
+Reported senior React min/max; quick Java fundamentals.
+
 **Pattern:** arrays · **Time box:** 10 minutes  
 **Evidence:** Reported · Delivery Hero senior React. [S10](../../../../../../../../research/SOURCES.md#s10)
 

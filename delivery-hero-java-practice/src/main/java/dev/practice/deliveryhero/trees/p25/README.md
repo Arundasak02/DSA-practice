@@ -1,5 +1,9 @@
 # P25 — Sum a BST value range
 
+**Priority:** LAST — **Learn last** · Study order 48/65.
+
+General interview coverage; no strong direct Delivery Hero evidence in the audit.
+
 **Pattern:** trees · **Time box:** 25 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

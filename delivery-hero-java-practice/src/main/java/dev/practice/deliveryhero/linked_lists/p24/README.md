@@ -1,5 +1,9 @@
 # P24 — Implement an LRU cache
 
+**Priority:** C — **Insurance** · Study order 41/65.
+
+Recommended LRU pattern; useful groundwork for LFU, not an exact reported task.
+
 **Pattern:** linked lists · **Time box:** 45 minutes  
 **Evidence:** Recommended · cache design pattern. Curriculum recommendation; not claimed as a Delivery Hero question.
 

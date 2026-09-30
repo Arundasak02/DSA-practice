@@ -1,5 +1,9 @@
 # P50 — Stacks with leftmost push and rightmost pop
 
+**Priority:** LAST — **Learn last** · Study order 57/65.
+
+Reported Glovo SE2 hard composite structure; lower return under a short deadline.
+
 **Pattern:** stacks · **Time box:** 50 minutes  
 **Evidence:** Reported · Glovo SE2 Barcelona. [S16](../../../../../../../../research/SOURCES.md#s16)
 

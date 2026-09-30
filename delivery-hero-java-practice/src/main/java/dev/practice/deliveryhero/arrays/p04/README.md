@@ -1,5 +1,9 @@
 # P04 — Maximum contiguous subarray sum
 
+**Priority:** A — **Learn first** · Study order 5/65.
+
+Reported Maximum Subarray, including constant auxiliary space.
+
 **Pattern:** arrays · **Time box:** 25 minutes  
 **Evidence:** Reported · Berlin SE2/SSE1. [S1](../../../../../../../../research/SOURCES.md#s1)
 

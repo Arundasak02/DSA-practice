@@ -1,5 +1,9 @@
 # P53 — Next lexicographic permutation
 
+**Priority:** LAST — **Learn last** · Study order 60/65.
+
+Secondary company-tag signal; underlying interview record unverified.
+
 **Pattern:** arrays · **Time box:** 30 minutes  
 **Evidence:** Recommended · secondary company-tag signal, not verified report. [S22](../../../../../../../../research/SOURCES.md#s22)
 

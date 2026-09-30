@@ -1,5 +1,9 @@
 # P45 — Character frequencies in first-seen order
 
+**Priority:** LAST — **Learn last** · Study order 56/65.
+
+Data-role repost with uncertain attribution; limited senior Java evidence.
+
 **Pattern:** hashing · **Time box:** 15 minutes  
 **Evidence:** Reported-topic · Delivery Hero data engineer repost; attribution uncertain. [S14](../../../../../../../../research/SOURCES.md#s14)
 

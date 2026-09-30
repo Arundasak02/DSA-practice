@@ -1,5 +1,9 @@
 # P03 — Compare OCR strings with unknown runs
 
+**Priority:** A — **Learn first** · Study order 8/65.
+
+Reported OCR compatibility task; numeric grammar is authored for practice.
+
 **Pattern:** strings · **Time box:** 40 minutes  
 **Evidence:** Reported · Berlin SE2/SSE1; grammar reconstructed. [S1](../../../../../../../../research/SOURCES.md#s1)
 

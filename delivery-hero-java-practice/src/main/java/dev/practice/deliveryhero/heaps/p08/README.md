@@ -1,5 +1,9 @@
 # P08 — Maintain the median of a stream
 
+**Priority:** A — **Learn first** · Study order 16/65.
+
+Reported senior Go streaming median. S23 does not identify median as its streaming task.
+
 **Pattern:** heaps · **Time box:** 40 minutes  
 **Evidence:** Reported · Berlin senior Go. [S3](../../../../../../../../research/SOURCES.md#s3)
 

@@ -1,5 +1,9 @@
 # P39 — Mask every second character of each word
 
+**Priority:** B — **Learn next** · Study order 34/65.
+
+Reported Android masking task; quick exercise, different role.
+
 **Pattern:** strings · **Time box:** 15 minutes  
 **Evidence:** Reported · Delivery Hero Android; boundaries defined for practice. [S12](../../../../../../../../research/SOURCES.md#s12)
 

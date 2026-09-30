@@ -1,5 +1,9 @@
 # P44 — Can everyone see the theatre screen?
 
+**Priority:** LAST — **Learn last** · Study order 55/65.
+
+Data-role repost with uncertain attribution; limited senior Java evidence.
+
 **Pattern:** arrays · **Time box:** 15 minutes  
 **Evidence:** Reported-topic · Delivery Hero data engineer repost; attribution uncertain. [S14](../../../../../../../../research/SOURCES.md#s14)
 

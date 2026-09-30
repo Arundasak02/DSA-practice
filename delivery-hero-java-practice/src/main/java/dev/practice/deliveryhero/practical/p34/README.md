@@ -1,5 +1,9 @@
 # P34 — Create orders safely under duplicate retries
 
+**Priority:** B — **Learn next** · Study order 27/65.
+
+Authored idempotency exercise; relevant reported discussion topic.
+
 **Pattern:** practical · **Time box:** 45 minutes  
 **Evidence:** Recommended · related idempotency topic reported, task authored. [S7](../../../../../../../../research/SOURCES.md#s7)
 

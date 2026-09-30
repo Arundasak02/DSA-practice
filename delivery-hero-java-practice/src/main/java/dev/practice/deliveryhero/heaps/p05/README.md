@@ -1,5 +1,9 @@
 # P05 — Largest, second-largest and kth-largest
 
+**Priority:** A — **Learn first** · Study order 6/65.
+
+Reported largest/second/kth-largest; duplicate policy is authored.
+
 **Pattern:** heaps · **Time box:** 25 minutes  
 **Evidence:** Reported · Berlin SE II; duplicate policy added. [S2](../../../../../../../../research/SOURCES.md#s2)
 

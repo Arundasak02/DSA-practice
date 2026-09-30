@@ -1,5 +1,9 @@
 # P52 — Check completeness of a binary tree
 
+**Priority:** LAST — **Learn last** · Study order 59/65.
+
+Secondary company-tag signal; underlying interview record unverified.
+
 **Pattern:** trees · **Time box:** 25 minutes  
 **Evidence:** Recommended · secondary company-tag signal, not verified report. [S22](../../../../../../../../research/SOURCES.md#s22)
 

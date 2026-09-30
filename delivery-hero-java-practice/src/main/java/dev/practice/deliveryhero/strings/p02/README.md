@@ -1,5 +1,9 @@
 # P02 — Find words with the same repetition pattern
 
+**Priority:** A — **Learn first** · Study order 7/65.
+
+Reported equivalent-character-pattern task in SE-II account.
+
 **Pattern:** strings · **Time box:** 25 minutes  
 **Evidence:** Reported · Berlin SE II. [S2](../../../../../../../../research/SOURCES.md#s2)
 

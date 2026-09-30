@@ -1,5 +1,9 @@
 # P59 — Count right-and-down grid paths
 
+**Priority:** LAST — **Learn last** · Study order 64/65.
+
+General DP/secondary tag evidence; lower return under a short deadline.
+
 **Pattern:** dynamic programming · **Time box:** 25 minutes  
 **Evidence:** Recommended · secondary company-tag signal, not verified report. [S22](../../../../../../../../research/SOURCES.md#s22)
 

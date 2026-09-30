@@ -1,5 +1,9 @@
 # P16 — Count subarrays with a target sum
 
+**Priority:** C — **Insurance** · Study order 36/65.
+
+Recommended transferable pattern; no strong evidence for this exact Delivery Hero task.
+
 **Pattern:** hashing · **Time box:** 25 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

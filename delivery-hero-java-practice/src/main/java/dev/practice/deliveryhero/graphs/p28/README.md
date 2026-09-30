@@ -1,5 +1,9 @@
 # P28 — Detect cyclic dependencies
 
+**Priority:** C — **Insurance** · Study order 42/65.
+
+Recommended transferable pattern; no strong evidence for this exact Delivery Hero task.
+
 **Pattern:** graphs · **Time box:** 35 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

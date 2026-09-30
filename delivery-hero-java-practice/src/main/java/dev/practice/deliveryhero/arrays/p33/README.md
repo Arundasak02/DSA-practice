@@ -1,5 +1,9 @@
 # P33 — Maximum profit from one buy then sell
 
+**Priority:** C — **Insurance** · Study order 44/65.
+
+Recommended transferable pattern; no strong evidence for this exact Delivery Hero task.
+
 **Pattern:** arrays · **Time box:** 20 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

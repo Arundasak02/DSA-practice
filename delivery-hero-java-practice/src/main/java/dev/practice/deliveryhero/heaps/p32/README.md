@@ -1,5 +1,9 @@
 # P32 — Top k frequent values with deterministic ties
 
+**Priority:** C — **Insurance** · Study order 43/65.
+
+Recommended transferable pattern; no strong evidence for this exact Delivery Hero task.
+
 **Pattern:** heaps · **Time box:** 30 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

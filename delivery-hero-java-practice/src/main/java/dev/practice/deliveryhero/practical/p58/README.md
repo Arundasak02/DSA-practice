@@ -1,5 +1,9 @@
 # P58 — Extensible delivery pricing rules
 
+**Priority:** C — **Insurance** · Study order 47/65.
+
+Adapted HungerStation OOP format; pricing domain is authored.
+
 **Pattern:** practical · **Time box:** 40 minutes  
 **Evidence:** Adapted format · HungerStation OOP/design-pattern coding; domain authored. [S19](../../../../../../../../research/SOURCES.md#s19)
 

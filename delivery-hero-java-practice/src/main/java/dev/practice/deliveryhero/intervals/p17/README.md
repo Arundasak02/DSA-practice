@@ -1,5 +1,9 @@
 # P17 — Merge closed intervals
 
+**Priority:** C — **Insurance** · Study order 37/65.
+
+Recommended transferable pattern; no strong evidence for this exact Delivery Hero task.
+
 **Pattern:** intervals · **Time box:** 25 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

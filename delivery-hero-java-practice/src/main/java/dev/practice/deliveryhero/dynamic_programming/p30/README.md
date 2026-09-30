@@ -1,5 +1,9 @@
 # P30 — Minimum coins for an amount
 
+**Priority:** LAST — **Learn last** · Study order 52/65.
+
+General interview coverage; no strong direct Delivery Hero evidence in the audit.
+
 **Pattern:** dynamic programming · **Time box:** 35 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

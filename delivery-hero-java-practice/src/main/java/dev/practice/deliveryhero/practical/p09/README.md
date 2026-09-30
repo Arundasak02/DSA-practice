@@ -1,5 +1,9 @@
 # P09 — Build two order API operations
 
+**Priority:** A — **Learn first** · Study order 13/65.
+
+Reported two REST APIs; order domain and endpoint contracts are authored.
+
 **Pattern:** practical · **Time box:** 45 minutes  
 **Evidence:** Adapted · Berlin SE II report names two REST APIs, no endpoints. [S4](../../../../../../../../research/SOURCES.md#s4)
 

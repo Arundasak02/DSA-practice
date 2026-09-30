@@ -1,6 +1,6 @@
 # Optional extension references
 
-These are **reference-only practice leads**, not extra runnable exercises. The core project contains 60 runnable exercises. This list avoids losing useful discoveries while keeping your first study route manageable.
+These are **reference-only practice leads**, not extra runnable exercises. The core project contains 65 runnable exercises. This list avoids losing useful discoveries while keeping your first study route manageable.
 
 ## Secondary company-tag leads
 

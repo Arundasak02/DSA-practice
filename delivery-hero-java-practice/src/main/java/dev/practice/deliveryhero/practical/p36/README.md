@@ -1,5 +1,9 @@
 # P36 — Debug a small invoice service
 
+**Priority:** A — **Learn first** · Study order 12/65.
+
+Reported Glovo debugging/test-fixing format; invoice service and defects are authored.
+
 **Pattern:** practical · **Time box:** 30 minutes  
 **Evidence:** Adapted · Glovo report describes debugging, actual service undisclosed. [S5](../../../../../../../../research/SOURCES.md#s5)
 

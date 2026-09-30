@@ -1,5 +1,9 @@
 # P57 — Implement a bounded blocking FIFO queue
 
+**Priority:** B — **Learn next** · Study order 31/65.
+
+Recommended Java concurrency exercise; exact historical prompt unverified.
+
 **Pattern:** concurrency · **Time box:** 50 minutes  
 **Evidence:** Recommended · Java translation of concurrency preparation. Curriculum recommendation; not claimed as a Delivery Hero question.
 

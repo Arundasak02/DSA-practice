@@ -19,7 +19,7 @@ class WorkspaceSmokeTest {
         Path root=Path.of("src/main/java/dev/practice/deliveryhero");
         try(var paths=Files.walk(root)) {
             var files=paths.filter(p->p.toString().endsWith(".java")).toList();
-            assertEquals(60,files.size());
+            assertEquals(65,files.size());
             for(var source:files) {
                 assertTrue(Files.exists(source.resolveSibling("README.md")),source.toString());
                 Path relative=Path.of("src/main/java").relativize(source);

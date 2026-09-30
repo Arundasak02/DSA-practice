@@ -1,5 +1,9 @@
 # P10 — Per-client sliding-window rate limiter
 
+**Priority:** A — **Learn first** · Study order 14/65.
+
+Reported API-abuse scenario; sliding-window algorithm is an adaptation.
+
 **Pattern:** practical · **Time box:** 40 minutes  
 **Evidence:** Adapted · Berlin API-abuse follow-up; algorithm not specified. [S4](../../../../../../../../research/SOURCES.md#s4)
 

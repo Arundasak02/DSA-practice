@@ -1,5 +1,9 @@
 # P55 — Map random tickets to weighted choices
 
+**Priority:** LAST — **Learn last** · Study order 62/65.
+
+Secondary weighted-selection recommendation; exact report unverified.
+
 **Pattern:** binary search · **Time box:** 30 minutes  
 **Evidence:** Recommended · weighted random pick pattern. [S22](../../../../../../../../research/SOURCES.md#s22)
 

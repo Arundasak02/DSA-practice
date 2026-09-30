@@ -1,7 +1,11 @@
 # P14 — Find two indices for a target
 
+**Priority:** A — **Learn first** · Study order 1/65.
+
+Senior SWE Two Sum report plus Android evidence; extend with P64.
+
 **Pattern:** hashing · **Time box:** 20 minutes  
-**Evidence:** Reported · Delivery Hero mid-level Android. [S18](../../../../../../../../research/SOURCES.md#s18)
+**Evidence:** Reported · Delivery Hero Senior SWE and mid-level Android. [S18](../../../../../../../../research/SOURCES.md#s18) [S27](../../../../../../../../research/SOURCES.md#s27)
 
 ## Task and contract
 
@@ -31,3 +35,7 @@ Expected O(n) time, O(n) space. Tests check behavior, not a proof of complexity.
 - Time and space:
 - Edge case I initially missed:
 - Retry date:
+
+## Duplicate-pairs follow-up
+
+After solving the single-pair contract, practise [P64 — all index pairs](../../hashing/p64/README.md). Its all-pairs output contract is separate from this exercise.

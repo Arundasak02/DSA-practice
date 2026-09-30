@@ -1,5 +1,9 @@
 # P54 — Fewest jumps to the last index
 
+**Priority:** LAST — **Learn last** · Study order 61/65.
+
+Minimum-jumps variant unverified; reported reachability is a separate task (P65).
+
 **Pattern:** greedy · **Time box:** 30 minutes  
 **Evidence:** Recommended · Jump Game II pattern. [S22](../../../../../../../../research/SOURCES.md#s22)
 

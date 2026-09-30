@@ -1,5 +1,9 @@
 # P42 — Flatten a nested list
 
+**Priority:** A — **Learn first** · Study order 11/65.
+
+Reported senior Python flattening; arbitrary nesting is a Java practice extension.
+
 **Pattern:** recursion · **Time box:** 25 minutes  
 **Evidence:** Reported · Delivery Hero senior Python; recursive Java variant. [S11](../../../../../../../../research/SOURCES.md#s11)
 

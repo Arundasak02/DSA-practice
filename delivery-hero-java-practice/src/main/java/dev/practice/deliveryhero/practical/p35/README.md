@@ -1,5 +1,9 @@
 # P35 — Deduplicate events with an expiry window
 
+**Priority:** B — **Learn next** · Study order 28/65.
+
+Authored Kafka/event practice; exact historical coding prompt not established.
+
 **Pattern:** practical · **Time box:** 40 minutes  
 **Evidence:** Recommended · tailored to event-driven Java work. Curriculum recommendation; not claimed as a Delivery Hero question.
 

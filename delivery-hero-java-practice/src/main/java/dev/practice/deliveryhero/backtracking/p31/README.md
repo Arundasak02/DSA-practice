@@ -1,5 +1,9 @@
 # P31 — Find a word along a grid path
 
+**Priority:** LAST — **Learn last** · Study order 53/65.
+
+General interview coverage; no strong direct Delivery Hero evidence in the audit.
+
 **Pattern:** backtracking · **Time box:** 40 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

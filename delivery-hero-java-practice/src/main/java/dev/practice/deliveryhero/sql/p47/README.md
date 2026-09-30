@@ -1,5 +1,9 @@
 # P47 — Join customers with their orders
 
+**Priority:** A — **Learn first** · Study order 15/65.
+
+Reported senior Python join topic; schema is authored and SQL is relevant to S23.
+
 **Pattern:** sql · **Time box:** 25 minutes  
 **Evidence:** Adapted · Delivery Hero senior Python SQL join report. [S11](../../../../../../../../research/SOURCES.md#s11)
 

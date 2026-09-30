@@ -1,5 +1,9 @@
 # P38 — Shortest route in an unweighted graph
 
+**Priority:** C — **Insurance** · Study order 45/65.
+
+Recommended transferable pattern; no strong evidence for this exact Delivery Hero task.
+
 **Pattern:** graphs · **Time box:** 30 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

@@ -1,5 +1,9 @@
 # P12 — Convert nested map keys to camelCase
 
+**Priority:** B — **Learn next** · Study order 20/65.
+
+Reported Glovo nested-map key conversion; useful Java recursion.
+
 **Pattern:** recursion · **Time box:** 35 minutes  
 **Evidence:** Related-company report · Glovo Spain; Java attempt. [S5](../../../../../../../../research/SOURCES.md#s5)
 

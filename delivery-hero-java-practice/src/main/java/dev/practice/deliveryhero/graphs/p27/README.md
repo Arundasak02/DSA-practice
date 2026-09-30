@@ -1,5 +1,9 @@
 # P27 — Count islands in a grid
 
+**Priority:** LAST — **Learn last** · Study order 50/65.
+
+General interview coverage; no strong direct Delivery Hero evidence in the audit.
+
 **Pattern:** graphs · **Time box:** 25 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

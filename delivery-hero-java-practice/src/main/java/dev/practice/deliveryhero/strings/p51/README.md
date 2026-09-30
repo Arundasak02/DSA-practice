@@ -1,5 +1,9 @@
 # P51 — Compress consecutive character runs in-place
 
+**Priority:** LAST — **Learn last** · Study order 58/65.
+
+Secondary company-tag signal; underlying interview record unverified.
+
 **Pattern:** strings · **Time box:** 25 minutes  
 **Evidence:** Recommended · secondary company-tag signal, not verified report. [S22](../../../../../../../../research/SOURCES.md#s22)
 

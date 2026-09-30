@@ -1,6 +1,16 @@
 # Delivery validation
 
-Updated 2026-09-27 after expanding the bank from 38 to 60 exercises.
+## Current update — 2026-09-30
+
+- Expanded from 60 to **65 exercises**. All original exercise implementation files and existing exercise tests were preserved; the setup structure check now expects 65.
+- Added five unsolved starter classes, five briefs and **33 exercise test methods**. Static inventory now contains **373 exercise tests**, plus 3 workspace checks. The count is not a claim that the unsolved exercise suite passes.
+- `./mvnw -DskipTests package`: **passed**, compiling sources and tests with OpenJDK 17.0.20 and release target 17.
+- `./mvnw -Dtest=WorkspaceSmokeTest test`: **3 passed**, 0 failures/errors/skips.
+- Validated 65 unique catalog IDs, 65 unique study-order positions, per-exercise priority consistency, declared test counts, all local Markdown targets/source anchors and `git diff --check`.
+- Maven used a writable local cache and explicit workspace proxy settings to obtain dependencies. These environment-only settings are not committed; the project wrapper remains unchanged.
+- New TODO methods remain unsolved. The full exercise suite was not rerun for this update; it is expected to remain red until learners implement the stubs. Compilation and smoke checks validate scaffolding, not solutions or complexity targets.
+
+## Previous expansion — 2026-09-27
 
 ## Verified
 

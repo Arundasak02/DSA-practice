@@ -1,5 +1,9 @@
 # P07 — Sort each consecutive chunk
 
+**Priority:** B — **Learn next** · Study order 25/65.
+
+Reported senior Go chunk-sorting task; wording is adapted.
+
 **Pattern:** arrays · **Time box:** 25 minutes  
 **Evidence:** Reported · Berlin senior Go; ambiguous wording adapted. [S3](../../../../../../../../research/SOURCES.md#s3)
 

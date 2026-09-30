@@ -1,5 +1,9 @@
 # P20 — Minimum rate to finish independent batches
 
+**Priority:** C — **Insurance** · Study order 39/65.
+
+Recommended transferable pattern; no strong evidence for this exact Delivery Hero task.
+
 **Pattern:** binary search · **Time box:** 35 minutes  
 **Evidence:** Recommended · Koko-style pattern. Curriculum recommendation; not claimed as a Delivery Hero question.
 

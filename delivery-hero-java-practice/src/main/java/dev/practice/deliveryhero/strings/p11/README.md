@@ -1,5 +1,9 @@
 # P11 — Validate a word abbreviation
 
+**Priority:** B — **Learn next** · Study order 32/65.
+
+Reported senior automation abbreviation task; different role.
+
 **Pattern:** strings · **Time box:** 25 minutes  
 **Evidence:** Related-role report · senior automation, location not established. [S6](../../../../../../../../research/SOURCES.md#s6)
 

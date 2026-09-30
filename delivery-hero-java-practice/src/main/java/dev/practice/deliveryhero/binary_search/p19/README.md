@@ -1,7 +1,11 @@
 # P19 — First position at least the target
 
+**Priority:** A — **Learn first** · Study order 2/65.
+
+Java backend account names binary search; this lower-bound variant is adapted.
+
 **Pattern:** binary search · **Time box:** 20 minutes  
-**Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
+**Evidence:** Adapted · Java backend report names binary search; lower-bound variant authored. [S23](../../../../../../../../research/SOURCES.md#s23)
 
 ## Task and contract
 

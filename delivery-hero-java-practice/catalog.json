@@ -11,7 +11,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/strings/p01",
     "minutes": 15,
-    "cases": 6
+    "cases": 6,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 4,
+    "priority_reason": "Reported word-count task in backend accounts; clarify boundaries and test."
   },
   {
     "id": 2,
@@ -24,7 +28,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/strings/p02",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 7,
+    "priority_reason": "Reported equivalent-character-pattern task in SE-II account."
   },
   {
     "id": 3,
@@ -37,7 +45,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/strings/p03",
     "minutes": 40,
-    "cases": 7
+    "cases": 7,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 8,
+    "priority_reason": "Reported OCR compatibility task; numeric grammar is authored for practice."
   },
   {
     "id": 4,
@@ -50,7 +62,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/arrays/p04",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 5,
+    "priority_reason": "Reported Maximum Subarray, including constant auxiliary space."
   },
   {
     "id": 5,
@@ -63,7 +79,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/heaps/p05",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 6,
+    "priority_reason": "Reported largest/second/kth-largest; duplicate policy is authored."
   },
   {
     "id": 6,
@@ -76,7 +96,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/arrays/p06",
     "minutes": 15,
-    "cases": 5
+    "cases": 5,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 24,
+    "priority_reason": "Reported senior Go lock task; weaker language match."
   },
   {
     "id": 7,
@@ -89,7 +113,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/arrays/p07",
     "minutes": 25,
-    "cases": 6
+    "cases": 6,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 25,
+    "priority_reason": "Reported senior Go chunk-sorting task; wording is adapted."
   },
   {
     "id": 8,
@@ -102,7 +130,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/heaps/p08",
     "minutes": 40,
-    "cases": 6
+    "cases": 6,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 16,
+    "priority_reason": "Reported senior Go streaming median. S23 does not identify median as its streaming task."
   },
   {
     "id": 9,
@@ -115,7 +147,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/practical/p09",
     "minutes": 45,
-    "cases": 6
+    "cases": 6,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 13,
+    "priority_reason": "Reported two REST APIs; order domain and endpoint contracts are authored."
   },
   {
     "id": 10,
@@ -128,7 +164,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/practical/p10",
     "minutes": 40,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 14,
+    "priority_reason": "Reported API-abuse scenario; sliding-window algorithm is an adaptation."
   },
   {
     "id": 11,
@@ -141,7 +181,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/strings/p11",
     "minutes": 25,
-    "cases": 7
+    "cases": 7,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 32,
+    "priority_reason": "Reported senior automation abbreviation task; different role."
   },
   {
     "id": 12,
@@ -154,7 +198,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/recursion/p12",
     "minutes": 35,
-    "cases": 6
+    "cases": 6,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 20,
+    "priority_reason": "Reported Glovo nested-map key conversion; useful Java recursion."
   },
   {
     "id": 13,
@@ -167,20 +215,29 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/arrays/p13",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 33,
+    "priority_reason": "Ambiguous reported duplicate-removal wording; retaining two sorted copies is an adaptation."
   },
   {
     "id": 14,
     "group": "hashing",
     "cls": "TwoSum",
     "title": "Find two indices for a target",
-    "status": "Reported \u00b7 Delivery Hero mid-level Android",
+    "status": "Reported \u00b7 Delivery Hero Senior SWE and mid-level Android",
     "sources": [
-      "S18"
+      "S18",
+      "S27"
     ],
     "path": "src/main/java/dev/practice/deliveryhero/hashing/p14",
     "minutes": 20,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 1,
+    "priority_reason": "Senior SWE Two Sum report plus Android evidence; extend with P64."
   },
   {
     "id": 15,
@@ -191,7 +248,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/sliding_window/p15",
     "minutes": 25,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 35,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 16,
@@ -202,7 +263,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/hashing/p16",
     "minutes": 25,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 36,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 17,
@@ -213,7 +278,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/intervals/p17",
     "minutes": 25,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 37,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 18,
@@ -224,18 +293,28 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/intervals/p18",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 38,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 19,
     "group": "binary_search",
     "cls": "LowerBound",
     "title": "First position at least the target",
-    "status": "Recommended",
-    "sources": [],
+    "status": "Adapted \u00b7 Java backend report names binary search; lower-bound variant authored",
+    "sources": [
+      "S23"
+    ],
     "path": "src/main/java/dev/practice/deliveryhero/binary_search/p19",
     "minutes": 20,
-    "cases": 6
+    "cases": 6,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 2,
+    "priority_reason": "Java backend account names binary search; this lower-bound variant is adapted."
   },
   {
     "id": 20,
@@ -246,7 +325,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/binary_search/p20",
     "minutes": 35,
-    "cases": 5
+    "cases": 5,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 39,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 21,
@@ -259,7 +342,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/stacks/p21",
     "minutes": 20,
-    "cases": 6
+    "cases": 6,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 22,
+    "priority_reason": "Reported Glovo senior bracket validation; different company/team."
   },
   {
     "id": 22,
@@ -270,7 +357,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/stacks/p22",
     "minutes": 35,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 40,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 23,
@@ -283,7 +374,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/linked_lists/p23",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 26,
+    "priority_reason": "Reported foodpanda reversal; useful fundamental, different team."
   },
   {
     "id": 24,
@@ -294,7 +389,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/linked_lists/p24",
     "minutes": 45,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 41,
+    "priority_reason": "Recommended LRU pattern; useful groundwork for LFU, not an exact reported task."
   },
   {
     "id": 25,
@@ -305,7 +404,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/trees/p25",
     "minutes": 25,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 48,
+    "priority_reason": "General interview coverage; no strong direct Delivery Hero evidence in the audit."
   },
   {
     "id": 26,
@@ -316,7 +419,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/trees/p26",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 49,
+    "priority_reason": "General interview coverage; no strong direct Delivery Hero evidence in the audit."
   },
   {
     "id": 27,
@@ -327,7 +434,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/graphs/p27",
     "minutes": 25,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 50,
+    "priority_reason": "General interview coverage; no strong direct Delivery Hero evidence in the audit."
   },
   {
     "id": 28,
@@ -338,7 +449,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/graphs/p28",
     "minutes": 35,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 42,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 29,
@@ -349,7 +464,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/graphs/p29",
     "minutes": 35,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 51,
+    "priority_reason": "General interview coverage; no strong direct Delivery Hero evidence in the audit."
   },
   {
     "id": 30,
@@ -360,7 +479,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/dynamic_programming/p30",
     "minutes": 35,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 52,
+    "priority_reason": "General interview coverage; no strong direct Delivery Hero evidence in the audit."
   },
   {
     "id": 31,
@@ -371,7 +494,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/backtracking/p31",
     "minutes": 40,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 53,
+    "priority_reason": "General interview coverage; no strong direct Delivery Hero evidence in the audit."
   },
   {
     "id": 32,
@@ -382,7 +509,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/heaps/p32",
     "minutes": 30,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 43,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 33,
@@ -393,7 +524,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/arrays/p33",
     "minutes": 20,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 44,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 34,
@@ -406,7 +541,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/practical/p34",
     "minutes": 45,
-    "cases": 5
+    "cases": 5,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 27,
+    "priority_reason": "Authored idempotency exercise; relevant reported discussion topic."
   },
   {
     "id": 35,
@@ -417,7 +556,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/practical/p35",
     "minutes": 40,
-    "cases": 6
+    "cases": 6,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 28,
+    "priority_reason": "Authored Kafka/event practice; exact historical coding prompt not established."
   },
   {
     "id": 36,
@@ -430,7 +573,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/practical/p36",
     "minutes": 30,
-    "cases": 7
+    "cases": 7,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 12,
+    "priority_reason": "Reported Glovo debugging/test-fixing format; invoice service and defects are authored."
   },
   {
     "id": 37,
@@ -441,7 +588,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/greedy/p37",
     "minutes": 30,
-    "cases": 5
+    "cases": 5,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 54,
+    "priority_reason": "General interview coverage; no strong direct Delivery Hero evidence in the audit."
   },
   {
     "id": 38,
@@ -452,7 +603,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/graphs/p38",
     "minutes": 30,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 45,
+    "priority_reason": "Recommended transferable pattern; no strong evidence for this exact Delivery Hero task."
   },
   {
     "id": 39,
@@ -465,7 +620,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/strings/p39",
     "minutes": 15,
-    "cases": 6
+    "cases": 6,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 34,
+    "priority_reason": "Reported Android masking task; quick exercise, different role."
   },
   {
     "id": 40,
@@ -478,7 +637,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/arrays/p40",
     "minutes": 10,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 9,
+    "priority_reason": "Reported senior React min/max; quick Java fundamentals."
   },
   {
     "id": 41,
@@ -491,7 +654,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/hashing/p41",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 10,
+    "priority_reason": "Reported senior React reconciliation topic; consistent contract is authored."
   },
   {
     "id": 42,
@@ -504,7 +671,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/recursion/p42",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 11,
+    "priority_reason": "Reported senior Python flattening; arbitrary nesting is a Java practice extension."
   },
   {
     "id": 43,
@@ -517,7 +688,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/practical/p43",
     "minutes": 45,
-    "cases": 6
+    "cases": 6,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 29,
+    "priority_reason": "Reported foodpanda Principal collection design; different team/level."
   },
   {
     "id": 44,
@@ -530,7 +705,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/arrays/p44",
     "minutes": 15,
-    "cases": 5
+    "cases": 5,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 55,
+    "priority_reason": "Data-role repost with uncertain attribution; limited senior Java evidence."
   },
   {
     "id": 45,
@@ -543,7 +722,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/hashing/p45",
     "minutes": 15,
-    "cases": 5
+    "cases": 5,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 56,
+    "priority_reason": "Data-role repost with uncertain attribution; limited senior Java evidence."
   },
   {
     "id": 46,
@@ -556,7 +739,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/sql/p46",
     "minutes": 30,
-    "cases": 5
+    "cases": 5,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 30,
+    "priority_reason": "Adapted data-role salary ranking; useful SQL practice."
   },
   {
     "id": 47,
@@ -569,7 +756,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/sql/p47",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 15,
+    "priority_reason": "Reported senior Python join topic; schema is authored and SQL is relevant to S23."
   },
   {
     "id": 48,
@@ -582,7 +773,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/hashing/p48",
     "minutes": 15,
-    "cases": 6
+    "cases": 6,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 23,
+    "priority_reason": "Reported Glovo senior anagram task; different team."
   },
   {
     "id": 49,
@@ -593,7 +788,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/hashing/p49",
     "minutes": 15,
-    "cases": 5
+    "cases": 5,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 46,
+    "priority_reason": "Recommended scan/map warm-up; no strong direct Delivery Hero evidence."
   },
   {
     "id": 50,
@@ -606,7 +805,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/stacks/p50",
     "minutes": 50,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 57,
+    "priority_reason": "Reported Glovo SE2 hard composite structure; lower return under a short deadline."
   },
   {
     "id": 51,
@@ -619,7 +822,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/strings/p51",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 58,
+    "priority_reason": "Secondary company-tag signal; underlying interview record unverified."
   },
   {
     "id": 52,
@@ -632,7 +839,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/trees/p52",
     "minutes": 25,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 59,
+    "priority_reason": "Secondary company-tag signal; underlying interview record unverified."
   },
   {
     "id": 53,
@@ -645,7 +856,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/arrays/p53",
     "minutes": 30,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 60,
+    "priority_reason": "Secondary company-tag signal; underlying interview record unverified."
   },
   {
     "id": 54,
@@ -658,7 +873,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/greedy/p54",
     "minutes": 30,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 61,
+    "priority_reason": "Minimum-jumps variant unverified; reported reachability is a separate task (P65)."
   },
   {
     "id": 55,
@@ -671,7 +890,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/binary_search/p55",
     "minutes": 30,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 62,
+    "priority_reason": "Secondary weighted-selection recommendation; exact report unverified."
   },
   {
     "id": 56,
@@ -682,7 +905,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/graphs/p56",
     "minutes": 40,
-    "cases": 6
+    "cases": 6,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 63,
+    "priority_reason": "General weighted-graph coverage; no strong direct evidence."
   },
   {
     "id": 57,
@@ -693,7 +920,11 @@
     "sources": [],
     "path": "src/main/java/dev/practice/deliveryhero/concurrency/p57",
     "minutes": 50,
-    "cases": 5
+    "cases": 5,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 31,
+    "priority_reason": "Recommended Java concurrency exercise; exact historical prompt unverified."
   },
   {
     "id": 58,
@@ -706,7 +937,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/practical/p58",
     "minutes": 40,
-    "cases": 6
+    "cases": 6,
+    "priority": "C",
+    "priority_label": "Insurance",
+    "study_order": 47,
+    "priority_reason": "Adapted HungerStation OOP format; pricing domain is authored."
   },
   {
     "id": 59,
@@ -719,7 +954,11 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/dynamic_programming/p59",
     "minutes": 25,
-    "cases": 5
+    "cases": 5,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 64,
+    "priority_reason": "General DP/secondary tag evidence; lower return under a short deadline."
   },
   {
     "id": 60,
@@ -732,6 +971,95 @@
     ],
     "path": "src/main/java/dev/practice/deliveryhero/dynamic_programming/p60",
     "minutes": 45,
-    "cases": 7
+    "cases": 7,
+    "priority": "LAST",
+    "priority_label": "Learn last",
+    "study_order": 65,
+    "priority_reason": "Advanced DP; high effort relative to direct evidence."
+  },
+  {
+    "id": 61,
+    "group": "strings",
+    "cls": "SnakeCase",
+    "title": "Convert camelCase to snake_case",
+    "status": "Reported \u00b7 Senior SWE; acronym rules authored",
+    "sources": [
+      "S24"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/strings/p61",
+    "minutes": 25,
+    "cases": 7,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 3,
+    "priority_reason": "Reported Senior SWE camelCase-to-snake_case task; acronym rules are authored."
+  },
+  {
+    "id": 62,
+    "group": "linked_lists",
+    "cls": "LfuCache",
+    "title": "Implement an LFU cache",
+    "status": "Related-role report \u00b7 Python; LRU tie-breaking authored",
+    "sources": [
+      "S25"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/linked_lists/p62",
+    "minutes": 50,
+    "cases": 7,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 19,
+    "priority_reason": "Candidate comment dated July 31, 2025 reports LFU for a Python role; not Senior Java."
+  },
+  {
+    "id": 63,
+    "group": "practical",
+    "cls": "RollingAverage",
+    "title": "Maintain a rolling average over a continuous stream",
+    "status": "Adapted \u00b7 Java backend stream-processing task; operation undisclosed",
+    "sources": [
+      "S23"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/practical/p63",
+    "minutes": 30,
+    "cases": 6,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 17,
+    "priority_reason": "Java backend report names continuous stream processing; rolling average is adapted."
+  },
+  {
+    "id": 64,
+    "group": "hashing",
+    "cls": "AllTwoSumPairs",
+    "title": "Return all Two-Sum index pairs with duplicates",
+    "status": "Adapted \u00b7 reported duplicate-index task; full output contract authored",
+    "sources": [
+      "S26"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/hashing/p64",
+    "minutes": 30,
+    "cases": 7,
+    "priority": "A",
+    "priority_label": "Learn first",
+    "study_order": 18,
+    "priority_reason": "Reported duplicate-index Two Sum task; complete output contract is authored."
+  },
+  {
+    "id": 65,
+    "group": "greedy",
+    "cls": "JumpReachability",
+    "title": "Determine whether the last index is reachable",
+    "status": "Reported \u00b7 Senior SWE in Python context; Java contract authored",
+    "sources": [
+      "S27"
+    ],
+    "path": "src/main/java/dev/practice/deliveryhero/greedy/p65",
+    "minutes": 20,
+    "cases": 6,
+    "priority": "B",
+    "priority_label": "Learn next",
+    "study_order": 21,
+    "priority_reason": "Senior SWE report names Jump Game reachability; Python context, separate from P54."
   }
 ]

@@ -1,5 +1,9 @@
 # P29 — Deep-copy a graph with cycles
 
+**Priority:** LAST — **Learn last** · Study order 51/65.
+
+General interview coverage; no strong direct Delivery Hero evidence in the audit.
+
 **Pattern:** graphs · **Time box:** 35 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

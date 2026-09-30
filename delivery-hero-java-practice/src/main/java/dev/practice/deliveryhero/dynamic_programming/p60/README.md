@@ -1,5 +1,9 @@
 # P60 — Best profit with at most k trades
 
+**Priority:** LAST — **Learn last** · Study order 65/65.
+
+Advanced DP; high effort relative to direct evidence.
+
 **Pattern:** dynamic programming · **Time box:** 45 minutes  
 **Evidence:** Recommended · advanced stock-state DP pattern. [S22](../../../../../../../../research/SOURCES.md#s22)
 

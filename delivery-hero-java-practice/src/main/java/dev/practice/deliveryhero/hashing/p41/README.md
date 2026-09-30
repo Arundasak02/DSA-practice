@@ -1,5 +1,9 @@
 # P41 — Plan inserts, updates and removals
 
+**Priority:** A — **Learn first** · Study order 10/65.
+
+Reported senior React reconciliation topic; consistent contract is authored.
+
 **Pattern:** hashing · **Time box:** 25 minutes  
 **Evidence:** Adapted · Delivery Hero senior React; reported example inconsistent. [S10](../../../../../../../../research/SOURCES.md#s10)
 

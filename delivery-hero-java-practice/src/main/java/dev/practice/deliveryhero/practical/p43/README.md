@@ -1,5 +1,9 @@
 # P43 — Design a set with insertion order and stack-like pop
 
+**Priority:** B — **Learn next** · Study order 29/65.
+
+Reported foodpanda Principal collection design; different team/level.
+
 **Pattern:** practical · **Time box:** 45 minutes  
 **Evidence:** Reported · foodpanda principal engineer. [S13](../../../../../../../../research/SOURCES.md#s13)
 

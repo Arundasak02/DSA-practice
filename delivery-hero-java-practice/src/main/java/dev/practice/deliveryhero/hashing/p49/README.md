@@ -1,5 +1,9 @@
 # P49 — First non-repeating character
 
+**Priority:** C — **Insurance** · Study order 46/65.
+
+Recommended scan/map warm-up; no strong direct Delivery Hero evidence.
+
 **Pattern:** hashing · **Time box:** 15 minutes  
 **Evidence:** Recommended · useful short string round. Curriculum recommendation; not claimed as a Delivery Hero question.
 

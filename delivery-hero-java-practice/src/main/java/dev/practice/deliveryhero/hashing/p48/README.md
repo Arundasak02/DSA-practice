@@ -1,5 +1,9 @@
 # P48 — Check whether two strings are anagrams
 
+**Priority:** B — **Learn next** · Study order 23/65.
+
+Reported Glovo senior anagram task; different team.
+
 **Pattern:** hashing · **Time box:** 15 minutes  
 **Evidence:** Reported · Glovo senior software engineer. [S15](../../../../../../../../research/SOURCES.md#s15)
 

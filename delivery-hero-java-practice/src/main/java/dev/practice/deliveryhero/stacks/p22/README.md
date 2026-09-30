@@ -1,5 +1,9 @@
 # P22 — Decode nested repetitions
 
+**Priority:** C — **Insurance** · Study order 40/65.
+
+Recommended transferable pattern; no strong evidence for this exact Delivery Hero task.
+
 **Pattern:** stacks · **Time box:** 35 minutes  
 **Evidence:** Recommended. Curriculum recommendation; not claimed as a Delivery Hero question.
 

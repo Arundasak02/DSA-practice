@@ -1,5 +1,9 @@
 # P23 — Reverse a singly linked list
 
+**Priority:** B — **Learn next** · Study order 26/65.
+
+Reported foodpanda reversal; useful fundamental, different team.
+
 **Pattern:** linked lists · **Time box:** 25 minutes  
 **Evidence:** Reported · foodpanda software engineer, Singapore. [S17](../../../../../../../../research/SOURCES.md#s17)
 

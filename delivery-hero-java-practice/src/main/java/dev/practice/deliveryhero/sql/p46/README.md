@@ -1,5 +1,9 @@
 # P46 — Second distinct salary per department
 
+**Priority:** B — **Learn next** · Study order 30/65.
+
+Adapted data-role salary ranking; useful SQL practice.
+
 **Pattern:** sql · **Time box:** 30 minutes  
 **Evidence:** Adapted · Delivery Hero data engineer salary-ranking report. [S14](../../../../../../../../research/SOURCES.md#s14)
 

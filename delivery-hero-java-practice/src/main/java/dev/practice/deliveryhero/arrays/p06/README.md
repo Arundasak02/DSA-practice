@@ -1,5 +1,9 @@
 # P06 — Minimum rotations of a combination lock
 
+**Priority:** B — **Learn next** · Study order 24/65.
+
+Reported senior Go lock task; weaker language match.
+
 **Pattern:** arrays · **Time box:** 15 minutes  
 **Evidence:** Reported · Berlin senior Go; wheel rules reconstructed. [S3](../../../../../../../../research/SOURCES.md#s3)
 
