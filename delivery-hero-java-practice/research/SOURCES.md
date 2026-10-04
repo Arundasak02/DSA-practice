@@ -1,6 +1,6 @@
 # Research source ledger
 
-Checked 2026-09-27. Dates below refer to the reported interview when available, not the search engine's crawl date. A candidate account is evidence that someone reported a task, not independent verification that the company asked it. Briefs and tests are original practice specifications, not copied interview materials.
+Reassessed 2026-10-03; the original source discovery was 2026-09-27. Sources for removed exercises remain below as an audit trail, not active recommendations. See REVIEW.md for the current selection. Dates below refer to the reported interview when available, not the search engine's crawl date. A candidate account is evidence that someone reported a task, not independent verification that the company asked it. Briefs and tests are original practice specifications, not copied interview materials.
 
 ## S1
 
@@ -176,10 +176,11 @@ These establish familiar practice variants, not Delivery Hero attribution. Our l
 
 ## S20
 
-[Delivery Hero senior software engineer reports — Glassdoor](https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0%2C13_KO14%2C38.htm)
+[Delivery Hero senior software engineer — Glassdoor](https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0,13_KO14,38.htm)
 
-- Public page retrieved, including November 2025/February 2026 accounts. Topics include concurrency models, project architecture, tenant isolation and food-delivery design.
-- Used for the senior-readiness discussion checklist only. Vague references to multiple coding tasks do not identify new algorithm problems. Candidate opinions about outcomes are not accepted as proof of assessment criteria.
+- Reopened 3 October 2026. January 30, 2026 review describes a November 2025 Berlin senior interview, including maximum-in-array, Two Sum and Jump Game reachability. These support P40, P14 and P61. Language discussion was Python, not Java.
+- February 2026 Berlin review reports coding and food-delivery system design without naming a coding task. July 2026 review discusses backend/concurrency with Python. Do not convert those topics into invented exact questions.
+- Access: public report text and linked question page. Candidate self-report, not independently verified; emotional outcome commentary is not used as evidence of difficulty or selection criteria.
 
 ## S21
 
@@ -195,3 +196,45 @@ These establish familiar practice variants, not Delivery Hero attribution. Our l
 - Public secondary list retrieved; underlying interview records, locations, dates and percentage methodology not independently established.
 - Used only as a discovery signal for recommended exercises P51–P55 and P59–P60. These are NOT promoted to reported questions; frequency percentages are deliberately omitted.
 - Remaining useful titles are mapped in EXTENSION_BACKLOG.md. Selection priorities are curriculum judgments, not employer-provided rankings.
+
+## S23
+
+[Official technical-interview preparation](https://deliveryhero.jobs/blog/preparing-for-your-technical-interview-delivery-hero/)
+
+Published 18 September 2019. Describes live coding and fundamental CS problem solving. Useful historical context, not a guarantee of today's stages. Current S21 states that the assessment reflects the role and that expectations are provided in advance.
+
+## S24
+
+[Delivery Hero SDE2 Java, Germany — xonomous candidate report](https://leetcode.com/discuss/post/8281420/)
+
+Read in full on 3 October 2026; publication/interview date is not exposed in the retrieved text. Reports binary-search and continuous-stream coding families, plus Java/backend discussion. Exact algorithms/contracts are undisclosed. P19 and P35 are practice choices for these families, not reconstructions of the actual questions. Germany is stated; Berlin and senior level are not established.
+
+## S25
+
+[Glassdoor senior reports, page 2](https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0,13_KO14,38_IP2.htm)
+
+October 2025 Berlin senior report explicitly names Two Sum, strengthening P14 beyond the older Android evidence. May 2025 report describes algorithmic pair programming; no exact task. Full visible report text retrieved. Employer review pages can change as new reports arrive.
+
+## S26
+
+[Essam Fahmy: manager-interview legacy-code scenario](https://medium.com/@essammohamedomran/real-world-interview-with-a-tech-manager-at-delivery-hero-9fc5e234e1e1)
+
+Published 19 December 2024. Candidate describes adding a testable feature around a production Configurator singleton without a broad rewrite. Role, location and a timed coding task are not established. P62 turns that scenario into a Java exercise; its domain, test interface and behavior are authored. Full public text retrieved.
+
+## S27
+
+[Glassdoor software engineer reports](https://www.glassdoor.com/Interview/Delivery-Hero-Software-Engineer-Interview-Questions-EI_IE504556.0,13_KO14,31.htm)
+
+May 2026 report mentions an online DSA assessment, technical/live coding and system design. Exact questions and team are unspecified. Retrieved page 1 and inspected page 2. Format evidence only.
+
+## S28
+
+[Shilpikumari — Berlin interview experience](https://medium.com/@shilpikumari14049/delivery-hero-berlin-interview-experience-56c3b255119f)
+
+Published 13 July 2023; exact interview date and seniority unspecified. Firsthand account with Java/Kafka discussion, medium DSA, rate-limiter design and CRUD implementation. Full public article retrieved. Strengthens practical/API preparation for a Java-focused Berlin loop; exact algorithm names and API domain were not supplied. P09 remains an authored create/read subset; update/delete are a study-plan extension. P10 is an algorithm practice variant, not the distributed design asked in the report.
+
+## S29
+
+[Reddit — Delivery Hero interview process](https://www.reddit.com/r/cscareerquestionsEU/comments/1s36sv4/delivery_hero_interview_process/)
+
+Thread dated 25 March 2026. An April 15 commenter identifying their track as SDE II reports clearing a first technical round containing LeetCode and technical questions. No named problem, language or location in that comment. The main post and other replies discuss delays; these do not establish question content. Public thread text retrieved. Anonymous and unverified, used only as supplementary format evidence.

@@ -19,9 +19,11 @@ class WorkspaceSmokeTest {
         Path root=Path.of("src/main/java/dev/practice/deliveryhero");
         try(var paths=Files.walk(root)) {
             var files=paths.filter(p->p.toString().endsWith(".java")).toList();
-            assertEquals(60,files.size());
+            assertEquals(35,files.size());
             for(var source:files) {
-                assertTrue(Files.exists(source.resolveSibling("README.md")),source.toString());
+                assertFalse(Files.exists(source.resolveSibling("README.md")),source.toString());
+                String code=Files.readString(source);
+                assertTrue(code.contains("Evidence:") && code.contains("Run: ./mvnw"),source.toString());
                 Path relative=Path.of("src/main/java").relativize(source);
                 Path test=Path.of("src/test/java").resolve(relative);
                 test=test.resolveSibling(test.getFileName().toString().replace(".java","Test.java"));
