@@ -1,6 +1,6 @@
 # Research source ledger
 
-Checked 2026-09-27. Dates below refer to the reported interview when available, not the search engine's crawl date. A candidate account is evidence that someone reported a task, not independent verification that the company asked it. Briefs and tests are original practice specifications, not copied interview materials.
+Reassessed 2026-10-03; the original source discovery was 2026-09-27. Sources for removed exercises remain below as an audit trail, not active recommendations. See REVIEW.md for the current selection. Dates below refer to the reported interview when available, not the search engine's crawl date. A candidate account is evidence that someone reported a task, not independent verification that the company asked it. Briefs and tests are original practice specifications, not copied interview materials.
 
 ## S1
 
@@ -176,10 +176,11 @@ These establish familiar practice variants, not Delivery Hero attribution. Our l
 
 ## S20
 
-[Delivery Hero senior software engineer reports — Glassdoor](https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0%2C13_KO14%2C38.htm)
+[Delivery Hero senior software engineer — Glassdoor](https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0,13_KO14,38.htm)
 
-- Public page retrieved, including November 2025/February 2026 accounts. Topics include concurrency models, project architecture, tenant isolation and food-delivery design.
-- Used for the senior-readiness discussion checklist only. Vague references to multiple coding tasks do not identify new algorithm problems. Candidate opinions about outcomes are not accepted as proof of assessment criteria.
+- Reopened 3 October 2026. January 30, 2026 review describes a November 2025 Berlin senior interview, including maximum-in-array, Two Sum and Jump Game reachability. These support P40, P14 and P61. Language discussion was Python, not Java.
+- February 2026 Berlin review reports coding and food-delivery system design without naming a coding task. July 2026 review discusses backend/concurrency with Python. Do not convert those topics into invented exact questions.
+- Access: public report text and linked question page. Candidate self-report, not independently verified; emotional outcome commentary is not used as evidence of difficulty or selection criteria.
 
 ## S21
 
@@ -196,31 +197,68 @@ These establish familiar practice variants, not Delivery Hero attribution. Our l
 - Used only as a discovery signal for recommended exercises P51–P55 and P59–P60. These are NOT promoted to reported questions; frequency percentages are deliberately omitted.
 - Remaining useful titles are mapped in EXTENSION_BACKLOG.md. Selection priorities are curriculum judgments, not employer-provided rankings.
 
-
 ## S23
 
-[Delivery Hero SDE 2 Java, Germany — candidate account](https://leetcode.com/discuss/post/8281420/)
+[Official technical-interview preparation](https://deliveryhero.jobs/blog/preparing-for-your-technical-interview-delivery-hero/)
 
-- Reopened September 30, 2026. Java/backend role; publication/interview year was not established from the retrieved page. Do not label it a verified 2026 interview.
-- Names a binary-search-based task and a simple continuously arriving stream task, without exact operations. P19 lower bound and P63 rolling average are adaptations, not recovered exact questions.
-- Also lists HAVING, range queries, locks, PostgreSQL/MySQL comparison, functional interfaces, OOP/SOLID, and Kafka partition/key and communication trade-offs. Supports SQL_DRILLS.md and backend discussion practice.
+Published 18 September 2019. Describes live coding and fundamental CS problem solving. Useful historical context, not a guarantee of today's stages. Current S21 states that the assessment reflects the role and that expectations are provided in advance.
 
 ## S24
+
+[Delivery Hero SDE2 Java, Germany — xonomous candidate report](https://leetcode.com/discuss/post/8281420/)
+
+Read in full on 3 October 2026; publication/interview date is not exposed in the retrieved text. Reports binary-search and continuous-stream coding families, plus Java/backend discussion. Exact algorithms/contracts are undisclosed. P19 and P35 are practice choices for these families, not reconstructions of the actual questions. Germany is stated; Berlin and senior level are not established.
+
+## S25
+
+[Glassdoor senior reports, page 2](https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0,13_KO14,38_IP2.htm)
+
+October 2025 Berlin senior report explicitly names Two Sum, strengthening P14 beyond the older Android evidence. May 2025 report describes algorithmic pair programming; no exact task. Full visible report text retrieved. Employer review pages can change as new reports arrive.
+
+## S26
+
+[Essam Fahmy: manager-interview legacy-code scenario](https://medium.com/@essammohamedomran/real-world-interview-with-a-tech-manager-at-delivery-hero-9fc5e234e1e1)
+
+Published 19 December 2024. Candidate describes adding a testable feature around a production Configurator singleton without a broad rewrite. Role, location and a timed coding task are not established. P62 turns that scenario into a Java exercise; its domain, test interface and behavior are authored. Full public text retrieved.
+
+## S27
+
+[Glassdoor software engineer reports](https://www.glassdoor.com/Interview/Delivery-Hero-Software-Engineer-Interview-Questions-EI_IE504556.0,13_KO14,31.htm)
+
+May 2026 report mentions an online DSA assessment, technical/live coding and system design. Exact questions and team are unspecified. Retrieved page 1 and inspected page 2. Format evidence only.
+
+## S28
+
+[Shilpikumari — Berlin interview experience](https://medium.com/@shilpikumari14049/delivery-hero-berlin-interview-experience-56c3b255119f)
+
+Published 13 July 2023; exact interview date and seniority unspecified. Firsthand account with Java/Kafka discussion, medium DSA, rate-limiter design and CRUD implementation. Full public article retrieved. Strengthens practical/API preparation for a Java-focused Berlin loop; exact algorithm names and API domain were not supplied. P09 remains an authored create/read subset; update/delete are a study-plan extension. P10 is an algorithm practice variant, not the distributed design asked in the report.
+
+## S29
+
+[Reddit — Delivery Hero interview process](https://www.reddit.com/r/cscareerquestionsEU/comments/1s36sv4/delivery_hero_interview_process/)
+
+Thread dated 25 March 2026. An April 15 commenter identifying their track as SDE II reports clearing a first technical round containing LeetCode and technical questions. No named problem, language or location in that comment. The main post and other replies discuss delays; these do not establish question content. Public thread text retrieved. Anonymous and unverified, used only as supplementary format evidence.
+
+## S30
 
 [camelCase to snake_case — Delivery Hero Senior Software Engineer, Glassdoor](https://www.glassdoor.co.uk/Interview/Q-Write-a-function-to-convert-camelCase-to-snake-case-QTN_6882053.htm)
 
 - Public question page reopened September 30, 2026; explicitly identifies Senior Software Engineer and the conversion task.
-- Supports P61. Acronyms, underscores, digits and null semantics are authored practice requirements; exact interview date not established.
+- Supports P66. Acronyms, underscores, digits and null semantics are authored practice requirements; exact interview date not established.
 
-## S25
+Imported from the remote September 30 research during the October 4 merge; not re-researched in this push operation.
+
+## S31
 
 [Reddit candidate comment reporting LFU cache](https://www.reddit.com/r/leetcode/comments/1f0foha/)
 
 - Search-retrieved first-person comment dated July 31, 2025 reports design/code of LFU in a Python-role interview. A preceding March comment mentions a mid-level application; Senior Java is not established.
 - Thread creation was August 2024; distinguish it from the later comment date and from the unverified interview date.
-- Supports P62 with related-role scope. Capacity rules and LRU tie-breaking are practice contracts. Does not establish LFU as more frequent than LRU.
+- Supports P67 with related-role scope. Capacity rules and LRU tie-breaking are practice contracts. Does not establish LFU as more frequent than LRU.
 
-## S26
+Imported from the remote September 30 research during the October 4 merge; not re-researched in this push operation.
+
+## S32
 
 [Delivery Hero duplicate-index Two Sum account — LeetCode](https://leetcode.com/discuss/post/1201101/delivery-hero-interview-question-no-idea-how-to-solve-atm/)
 
@@ -228,10 +266,4 @@ These establish familiar practice variants, not Delivery Hero attribution. Our l
 - Describes returning indices summing to a target from an unsorted array with duplicates. Its sample output is incomplete.
 - P64 chooses every unordered pair with i < j and an explicit deterministic output order. Those complete requirements are authored.
 
-## S27
-
-[Delivery Hero Senior SWE interview archive — Glassdoor](https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0,13_KO14,38.htm)
-
-- Public report reviewed January 30, 2026 describes a November 2025 Berlin interview with Python questions. It explicitly lists maximum element, Two Sum and Jump Game reachability.
-- Supports P14 Senior SWE evidence and P65. P54 minimum jumps remains a different, unverified variant. Java signatures and edge semantics are authored.
-- Public reports are self-reported; inaccessible archive entries remain unknown.
+Imported from the remote September 30 research during the October 4 merge; not re-researched in this push operation.

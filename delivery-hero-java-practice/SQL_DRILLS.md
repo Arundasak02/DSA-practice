@@ -1,6 +1,6 @@
 # SQL drills — learn before general trees/graphs/DP
 
-The Java/backend candidate report names HAVING, range queries, locks and PostgreSQL/MySQL comparison. These concrete schemas and scenarios are authored practice drills, not recovered exact questions. See [S23](research/SOURCES.md#s23). P47 already provides a runnable join exercise; these drills are written query and discussion exercises.
+The Java/backend candidate report names HAVING, range queries, locks and PostgreSQL/MySQL comparison. These concrete schemas and scenarios are authored practice drills, not recovered exact questions. See [S24](research/SOURCES.md#s24). P47 already provides a runnable join exercise; these drills are written query and discussion exercises.
 
 ## Shared practice schema
 
@@ -47,4 +47,4 @@ Avoid a universal winner. Be able to defend a familiar database first, then disc
 - [ ] Write SQL01 and SQL02 from a blank editor and explain expected rows.
 - [ ] Walk through both concurrent SQL03 requests and a failed retry.
 - [ ] Explain SQL04 with a workload and measurable trade-offs.
-- [ ] Revisit [P47 joins](src/main/java/dev/practice/deliveryhero/sql/p47/README.md) and [P46 salary ranking](src/main/java/dev/practice/deliveryhero/sql/p46/README.md).
+- [ ] Revisit [P47 joins](src/main/java/dev/practice/deliveryhero/sql/p47/CustomerOrderJoinQuery.java).
