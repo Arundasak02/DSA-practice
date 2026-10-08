@@ -1,0 +1,310 @@
+[
+  {
+    "id": "SM01",
+    "pack": "string_manipulation",
+    "cls": "SM01WordCounting",
+    "title": "Count words",
+    "evidence": "Reported: Berlin SE2/SSE1 2021 and SEII 2022",
+    "sources": [
+      "DH1",
+      "DH2"
+    ],
+    "stream_fit": "Possible via tokenization followed by counting, but a loop is clearer and avoids token allocation. Match the exact whitespace contract; default regex \\s is not identical.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM01WordCounting.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM01WordCountingTest.java",
+    "cases": 4,
+    "minutes": 15
+  },
+  {
+    "id": "SM02",
+    "pack": "string_manipulation",
+    "cls": "SM02WordPatterns",
+    "title": "Match character-repetition patterns",
+    "evidence": "Reported: Berlin SEII 2022",
+    "sources": [
+      "DH2"
+    ],
+    "stream_fit": "Good for filtering the list with a pure matches(word,pattern) helper. Implement the bijection inside that helper with local maps; avoid shared mutable state.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM02WordPatterns.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM02WordPatternsTest.java",
+    "cases": 4,
+    "minutes": 25
+  },
+  {
+    "id": "SM03",
+    "pack": "string_manipulation",
+    "cls": "SM03CamelToSnake",
+    "title": "Convert camelCase to snake_case",
+    "evidence": "Reported: Delivery Hero senior SWE; date/location unspecified",
+    "sources": [
+      "DH3"
+    ],
+    "stream_fit": "Possible using an index IntStream and joining, but adjacent-character rules are simpler with StringBuilder. Do not force a Stream solution.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM03CamelToSnake.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM03CamelToSnakeTest.java",
+    "cases": 4,
+    "minutes": 25
+  },
+  {
+    "id": "SM04",
+    "pack": "string_manipulation",
+    "cls": "SM04NestedCamelKeys",
+    "title": "Convert nested map keys to camelCase",
+    "evidence": "Reported: Glovo Spain backend; Java attempt, not Berlin",
+    "sources": [
+      "GLOVO"
+    ],
+    "stream_fit": "Possible with entry streams plus recursion. A toMap merge rule must reject collisions; a recursive loop is usually easier to explain.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM04NestedCamelKeys.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM04NestedCamelKeysTest.java",
+    "cases": 4,
+    "minutes": 35
+  },
+  {
+    "id": "SM05",
+    "pack": "string_manipulation",
+    "cls": "SM05OcrStrings",
+    "title": "Compare OCR encodings",
+    "evidence": "Reported: Berlin SE2/SSE1 2021; numeric grammar reconstructed",
+    "sources": [
+      "DH1"
+    ],
+    "stream_fit": "Poor fit: comparing variable-length logical runs requires coordinated state. Use a scanner/two pointers and long counters.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM05OcrStrings.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM05OcrStringsTest.java",
+    "cases": 4,
+    "minutes": 40
+  },
+  {
+    "id": "SM06",
+    "pack": "string_manipulation",
+    "cls": "SM06FirstUnique",
+    "title": "First non-repeated code point",
+    "evidence": "Recommended string/Stream practice; not established as a DH question",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Good fit: codePoints() and frequency counting, then encounter-order selection. chars() splits supplementary characters; specify key ordering.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM06FirstUnique.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM06FirstUniqueTest.java",
+    "cases": 4,
+    "minutes": 25
+  },
+  {
+    "id": "SM07",
+    "pack": "string_manipulation",
+    "cls": "SM07AnagramGroups",
+    "title": "Group anagrams",
+    "evidence": "Recommended pattern/collector practice; not established as a DH question",
+    "sources": [
+      "COLLECT"
+    ],
+    "stream_fit": "Good fit: grouping by a canonical key; use an insertion-ordered map to satisfy group order. Explain sorted-key cost.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM07AnagramGroups.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM07AnagramGroupsTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "SM08",
+    "pack": "string_manipulation",
+    "cls": "SM08RunCompression",
+    "title": "Encode consecutive runs",
+    "evidence": "Recommended string scanning; not established as a DH question",
+    "sources": [],
+    "stream_fit": "Poor fit: adjacent runs and boundary state are clearer in a loop; groupingBy loses run boundaries.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM08RunCompression.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM08RunCompressionTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "SM09",
+    "pack": "string_manipulation",
+    "cls": "SM09ReverseWords",
+    "title": "Reverse word order",
+    "evidence": "Recommended string manipulation; not established as a DH question",
+    "sources": [],
+    "stream_fit": "Possible with tokenization, reversed indices and joining; a normal list reversal is simpler. A Stream has no general reverse operation.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM09ReverseWords.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM09ReverseWordsTest.java",
+    "cases": 3,
+    "minutes": 15
+  },
+  {
+    "id": "SM10",
+    "pack": "string_manipulation",
+    "cls": "SM10Palindrome",
+    "title": "Check normalized palindrome",
+    "evidence": "Recommended string/two-pointer practice; not established as a DH question",
+    "sources": [
+      "STREAM"
+    ],
+    "stream_fit": "Possible to filter/lowercase code points then compare, with O(n) intermediate storage. Two pointers avoid that allocation.",
+    "file": "src/main/java/dev/practice/focus/string_manipulation/SM10Palindrome.java",
+    "test": "src/test/java/dev/practice/focus/string_manipulation/SM10PalindromeTest.java",
+    "cases": 3,
+    "minutes": 20
+  },
+  {
+    "id": "JS01",
+    "pack": "java_streams",
+    "cls": "JS01FilterMap",
+    "title": "Filter and map values",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Understand lazy intermediate versus terminal operations.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS01FilterMap.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS01FilterMapTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS02",
+    "pack": "java_streams",
+    "cls": "JS02SecondLargest",
+    "title": "Second-largest DISTINCT value",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Be explicit about duplicates and empty Optional; sorting costs O(n log n).",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS02SecondLargest.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS02SecondLargestTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS03",
+    "pack": "java_streams",
+    "cls": "JS03WordFrequencies",
+    "title": "Count word frequencies",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Counting and ordered collection; HashMap does not promise encounter order.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS03WordFrequencies.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS03WordFrequenciesTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS04",
+    "pack": "java_streams",
+    "cls": "JS04FlatDistinct",
+    "title": "Flatten nested lists and deduplicate",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Explain map versus flatMap and ordered distinct.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS04FlatDistinct.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS04FlatDistinctTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS05",
+    "pack": "java_streams",
+    "cls": "JS05SalaryTotals",
+    "title": "Sum salaries by department",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Nested grouping and summing; avoid int overflow.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS05SalaryTotals.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS05SalaryTotalsTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS06",
+    "pack": "java_streams",
+    "cls": "JS06DepartmentMaximum",
+    "title": "Highest-paid employee per department",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Choose a deterministic comparator/merge; do not leave tie behavior accidental.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS06DepartmentMaximum.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS06DepartmentMaximumTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS07",
+    "pack": "java_streams",
+    "cls": "JS07SalaryPartition",
+    "title": "Partition by salary threshold",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Explain partitioning versus grouping.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS07SalaryPartition.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS07SalaryPartitionTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS08",
+    "pack": "java_streams",
+    "cls": "JS08LatestEmployee",
+    "title": "Convert list to map with duplicate IDs",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. toMap needs an explicit collision policy; distinct compares whole records, not IDs.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS08LatestEmployee.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS08LatestEmployeeTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS09",
+    "pack": "java_streams",
+    "cls": "JS09SortedNames",
+    "title": "Sort employees with deterministic ties",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Compose comparators; subtracting numeric values can overflow.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS09SortedNames.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS09SortedNamesTest.java",
+    "cases": 3,
+    "minutes": 25
+  },
+  {
+    "id": "JS10",
+    "pack": "java_streams",
+    "cls": "JS10Reduction",
+    "title": "Reduce a total safely",
+    "evidence": "General Java Stream interview practice; no DH-specific attribution",
+    "sources": [
+      "STREAM",
+      "COLLECT"
+    ],
+    "stream_fit": "Use Stream API for the main transformation. Use a neutral identity and associative addition; never mutate an external accumulator.",
+    "file": "src/main/java/dev/practice/focus/java_streams/JS10Reduction.java",
+    "test": "src/test/java/dev/practice/focus/java_streams/JS10ReductionTest.java",
+    "cases": 3,
+    "minutes": 25
+  }
+]

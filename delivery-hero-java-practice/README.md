@@ -26,3 +26,5 @@ Record attempts in [PROGRESS.md](PROGRESS.md). [SENIOR_READINESS.md](SENIOR_READ
 Remote additions were preserved during the October 4 merge. See the supplemental table in the study plan; P65 overlaps P61 and need not be studied twice.
 
 For complete, runnable learning examples grouped by category, open [Java design patterns](DESIGN_PATTERNS.md). These eight examples are separate from the unfinished question bank and its exercise counts.
+
+New focused folders: [String manipulation and Java Streams](FOCUS_STUDY_PLAN.md) contains 20 additional unsolved exercises with Stream-suitability notes, tests and a separate focus catalog. They are tracked separately from the Pxx bank.
