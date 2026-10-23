@@ -97,4 +97,4 @@ A problem is ready only when you can solve it without notes, test edge cases, ex
 
 ## After the core
 
-For Java interviews, do the ten [Streams exercises](docs/OPTIONAL_TRACKS.md#java-streams). For senior backend interviews, prioritize CRUD (P09), test design (P68), debugging (P36), rate limiting (P10) and idempotency (P34), then review the worked design patterns. Choose the remaining DSA extensions when you can explain the core comfortably. Keep these optional tracks separate from your daily DSA target.
+For Java interviews, do the ten [Streams exercises](docs/OPTIONAL_TRACKS.md#java-streams). For senior backend interviews, prioritize CRUD (P09), test design (P68), debugging (P36), rate limiting (P10) and idempotency (P34), then follow the [design-pattern learning path](docs/DESIGN_PATTERNS.md) with 23 examples and 12 practical exercises. Choose the remaining DSA extensions when you can explain the core comfortably. Keep these optional tracks separate from your daily DSA target.

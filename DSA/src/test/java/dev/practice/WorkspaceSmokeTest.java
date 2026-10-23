@@ -19,7 +19,7 @@ class WorkspaceSmokeTest {
             assertTrue(Files.readString(Path.of(source)).contains("Run: ./mvnw"), "Missing exercise brief: " + source);
         }
         Set<String> actual = new HashSet<>();
-        for (String track : List.of("dsa", "backend", "streams")) {
+        for (String track : List.of("dsa", "backend", "streams", "patterns/exercises")) {
             try (var paths = Files.walk(Path.of("src/main/java/dev/practice", track))) {
                 paths.filter(p -> p.toString().endsWith(".java"))
                      .filter(p -> !p.getFileName().toString().equals("Employee.java"))

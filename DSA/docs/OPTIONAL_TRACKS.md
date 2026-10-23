@@ -1,6 +1,6 @@
 # Optional tracks
 
-These 33 exercises extend the core; they are not prerequisites for finishing the 42-question plan. Statements, constraints and tips are inside each Java file.
+These 45 exercises extend the core; they are not prerequisites for finishing the 42-question plan. Statements, constraints and tips are inside each Java file.
 
 ## DSA extensions
 
@@ -51,3 +51,22 @@ These 33 exercises extend the core; they are not prerequisites for finishing the
 | P68 | [Write word-count tests that catch faulty implementations](../src/main/java/dev/practice/backend/WordCountTestDesign.java) | testing |
 
 For complete worked examples, see [design patterns](DESIGN_PATTERNS.md). For additional query prompts, see [SQL drills](SQL_DRILLS.md).
+
+## Design-pattern exercises
+
+Follow the [twelve-session pattern plan](DESIGN_PATTERNS.md#twelve-session-learning-path).
+
+| ID | Exercise | Patterns |
+|---|---|---|
+| DP01 | [Parking-lot fee policies](../src/main/java/dev/practice/patterns/exercises/ParkingFees.java) | Strategy + simple factory |
+| DP02 | [Build validated immutable trade orders](../src/main/java/dev/practice/patterns/exercises/TradeOrderBuilder.java) | Builder |
+| DP03 | [Adapt and decorate a notification sender](../src/main/java/dev/practice/patterns/exercises/NotificationPipeline.java) | Adapter + Decorator |
+| DP04 | [Order lifecycle with valid transitions](../src/main/java/dev/practice/patterns/exercises/OrderLifecycle.java) | State |
+| DP05 | [Composable pre-trade validation chain](../src/main/java/dev/practice/patterns/exercises/TradeValidation.java) | Chain of Responsibility |
+| DP06 | [Market-price subscriptions](../src/main/java/dev/practice/patterns/exercises/PriceSubscriptions.java) | Observer |
+| DP07 | [Text editor with undo and redo](../src/main/java/dev/practice/patterns/exercises/UndoableEditor.java) | Command + Memento |
+| DP08 | [Reusable import workflow](../src/main/java/dev/practice/patterns/exercises/ImportWorkflow.java) | Template Method |
+| DP09 | [Authorized caching report proxy](../src/main/java/dev/practice/patterns/exercises/ReportProxy.java) | Proxy |
+| DP10 | [Aggregate nested portfolios](../src/main/java/dev/practice/patterns/exercises/PortfolioComposite.java) | Composite |
+| DP11 | [Checkout with compatible provider families](../src/main/java/dev/practice/patterns/exercises/CheckoutFacade.java) | Abstract Factory + Facade |
+| DP12 | [Copy a configured watchlist safely](../src/main/java/dev/practice/patterns/exercises/WatchlistPrototype.java) | Prototype |

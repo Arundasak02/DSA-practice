@@ -79,3 +79,15 @@ P01 retains your worked solution. Track independent attempts and spaced retries;
 | D18 | Count ways to climb stairs | [ ] | [ ] | [ ] | [ ] | [ ] | |
 | D19 | Maximum nonadjacent sum | [ ] | [ ] | [ ] | [ ] | [ ] | |
 | D20 | Count set bits from zero through n | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP01 | Parking-lot fee policies | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP02 | Build validated immutable trade orders | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP03 | Adapt and decorate a notification sender | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP04 | Order lifecycle with valid transitions | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP05 | Composable pre-trade validation chain | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP06 | Market-price subscriptions | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP07 | Text editor with undo and redo | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP08 | Reusable import workflow | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP09 | Authorized caching report proxy | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP10 | Aggregate nested portfolios | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP11 | Checkout with compatible provider families | [ ] | [ ] | [ ] | [ ] | [ ] | |
+| DP12 | Copy a configured watchlist safely | [ ] | [ ] | [ ] | [ ] | [ ] | |
