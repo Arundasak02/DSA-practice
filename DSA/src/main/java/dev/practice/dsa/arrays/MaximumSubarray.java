@@ -1,9 +1,5 @@
 package dev.practice.dsa.arrays;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P04 — Maximum contiguous subarray sum | 25 minutes
  * Evidence: Reported · Berlin SE2/SSE1.
@@ -23,7 +19,7 @@ import java.math.*;
  */
 public class MaximumSubarray {
 
-    public long maxSum(int[] values) {
-        throw new UnsupportedOperationException("TODO P04: implement your solution");
-    }
+  public long maxSum(int[] values) {
+    throw new UnsupportedOperationException("TODO P04: implement your solution");
+  }
 }

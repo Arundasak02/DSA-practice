@@ -1,8 +1,5 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
-
 /*
  * DP02 — Build validated immutable trade orders | 45 minutes
  * Patterns to practise: Builder
@@ -19,13 +16,33 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class TradeOrderBuilder {
-    public enum Type { MARKET, LIMIT }
-    public record Order(String symbol, int quantity, Type type, Long limitCents) {}
-    public static class Builder {
-        public Builder symbol(String symbol) { throw new UnsupportedOperationException("TODO DP02"); }
-        public Builder quantity(int quantity) { throw new UnsupportedOperationException("TODO DP02"); }
-        public Builder limit(long priceCents) { throw new UnsupportedOperationException("TODO DP02"); }
-        public Builder market() { throw new UnsupportedOperationException("TODO DP02"); }
-        public Order build() { throw new UnsupportedOperationException("TODO DP02"); }
+
+  public enum Type {MARKET, LIMIT}
+
+  public record Order(String symbol, int quantity, Type type, Long limitCents) {
+
+  }
+
+  public static class Builder {
+
+    public Builder symbol(String symbol) {
+      throw new UnsupportedOperationException("TODO DP02");
     }
+
+    public Builder quantity(int quantity) {
+      throw new UnsupportedOperationException("TODO DP02");
+    }
+
+    public Builder limit(long priceCents) {
+      throw new UnsupportedOperationException("TODO DP02");
+    }
+
+    public Builder market() {
+      throw new UnsupportedOperationException("TODO DP02");
+    }
+
+    public Order build() {
+      throw new UnsupportedOperationException("TODO DP02");
+    }
+  }
 }

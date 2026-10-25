@@ -1,8 +1,6 @@
 package dev.practice.dsa.recursion;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
+import java.util.Map;
 
 /*
  * P12 — Convert nested map keys to camelCase | 35 minutes
@@ -30,7 +28,7 @@ import java.math.*;
  */
 public class CamelCaseMap {
 
-    public Map<String,Object> convert(Map<String,Object> input) {
-        throw new UnsupportedOperationException("TODO P12: implement your solution");
-    }
+  public Map<String, Object> convert(Map<String, Object> input) {
+    throw new UnsupportedOperationException("TODO P12: implement your solution");
+  }
 }

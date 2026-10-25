@@ -1,6 +1,7 @@
 package dev.practice.patterns.behavioural;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 /*
  * TEMPLATE METHOD — fix the workflow while subclasses supply a variable step.
@@ -10,18 +11,28 @@ import java.util.*;
  * Try: add a pipe-separated importer without changing run.
  */
 public class TemplateMethodExample {
-    static abstract class Importer {
-        final List<String> run(String input) {
-            if (input.isBlank()) return List.of();
-            return parse(input).stream().map(String::trim).filter(s -> !s.isEmpty()).toList();
-        }
-        abstract List<String> parse(String input);
+
+  public static void main(String[] args) {
+    System.out.println(new CsvImporter().run(" ACME, , BETA "));
+  }
+
+  static abstract class Importer {
+
+    final List<String> run(String input) {
+      if (input.isBlank()) {
+        return List.of();
+      }
+      return parse(input).stream().map(String::trim).filter(s -> !s.isEmpty()).toList();
     }
-    static class CsvImporter extends Importer {
-        List<String> parse(String input) { return Arrays.asList(input.split(",")); }
+
+    abstract List<String> parse(String input);
+  }
+
+  static class CsvImporter extends Importer {
+
+    List<String> parse(String input) {
+      return Arrays.asList(input.split(","));
     }
-    public static void main(String[] args) {
-        System.out.println(new CsvImporter().run(" ACME, , BETA "));
-    }
-    // Output: [ACME, BETA]
+  }
+  // Output: [ACME, BETA]
 }

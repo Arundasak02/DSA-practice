@@ -1,7 +1,7 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
+import java.util.List;
+import java.util.function.Consumer;
 
 /*
  * DP06 — Market-price subscriptions | 45 minutes
@@ -20,11 +20,21 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class PriceSubscriptions {
-    public record Tick(String symbol, long cents) {}
-    public interface Hub {
-        void subscribe(String id, Consumer<Tick> listener);
-        void unsubscribe(String id);
-        List<String> publish(Tick tick);
-    }
-    public static Hub create() { throw new UnsupportedOperationException("TODO DP06"); }
+
+  public static Hub create() {
+    throw new UnsupportedOperationException("TODO DP06");
+  }
+
+  public interface Hub {
+
+    void subscribe(String id, Consumer<Tick> listener);
+
+    void unsubscribe(String id);
+
+    List<String> publish(Tick tick);
+  }
+
+  public record Tick(String symbol, long cents) {
+
+  }
 }

@@ -1,8 +1,6 @@
 package dev.practice.dsa.strings;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
+import java.util.List;
 
 /*
  * P02 — Find words with the same repetition pattern | 25 minutes
@@ -26,7 +24,7 @@ import java.math.*;
  */
 public class PatternWords {
 
-    public List<String> match(List<String> words, String pattern) {
-        throw new UnsupportedOperationException("TODO P02: implement your solution");
-    }
+  public List<String> match(List<String> words, String pattern) {
+    throw new UnsupportedOperationException("TODO P02: implement your solution");
+  }
 }

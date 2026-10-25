@@ -1,6 +1,6 @@
 package dev.practice.dsa.two_pointers;
 
-import java.util.*;
+import java.util.List;
 
 /*
  * D05 — Unique zero-sum triplets
@@ -12,7 +12,7 @@ import java.util.*;
 public class ThreeSum {
 
 
-    public List<List<Integer>> find(int[] values) {
-        throw new UnsupportedOperationException("TODO D05: implement your solution");
-    }
+  public List<List<Integer>> find(int[] values) {
+    throw new UnsupportedOperationException("TODO D05: implement your solution");
+  }
 }

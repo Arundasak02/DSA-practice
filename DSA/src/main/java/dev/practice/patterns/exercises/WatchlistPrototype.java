@@ -1,7 +1,6 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
+import java.util.List;
 
 /*
  * DP12 — Copy a configured watchlist safely | 30 minutes
@@ -18,15 +17,30 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class WatchlistPrototype {
-    public static class Rule {
-        public String symbol;
-        public long threshold;
-        public Rule(String symbol, long threshold) { this.symbol=symbol; this.threshold=threshold; }
+
+  public static Watchlist copyOf(Watchlist template) {
+    throw new UnsupportedOperationException("TODO DP12");
+  }
+
+  public static class Rule {
+
+    public String symbol;
+    public long threshold;
+
+    public Rule(String symbol, long threshold) {
+      this.symbol = symbol;
+      this.threshold = threshold;
     }
-    public static class Watchlist {
-        public String name;
-        public List<Rule> rules;
-        public Watchlist(String name, List<Rule> rules) { this.name=name; this.rules=rules; }
+  }
+
+  public static class Watchlist {
+
+    public String name;
+    public List<Rule> rules;
+
+    public Watchlist(String name, List<Rule> rules) {
+      this.name = name;
+      this.rules = rules;
     }
-    public static Watchlist copyOf(Watchlist template) { throw new UnsupportedOperationException("TODO DP12"); }
+  }
 }

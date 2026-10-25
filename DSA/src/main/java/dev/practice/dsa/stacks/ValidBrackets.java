@@ -1,9 +1,5 @@
 package dev.practice.dsa.stacks;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P21 — Validate bracket nesting | 20 minutes
  * Evidence: Reported · Glovo senior software engineer.
@@ -22,7 +18,7 @@ import java.math.*;
  */
 public class ValidBrackets {
 
-    public boolean valid(String text) {
-        throw new UnsupportedOperationException("TODO P21: implement your solution");
-    }
+  public boolean valid(String text) {
+    throw new UnsupportedOperationException("TODO P21: implement your solution");
+  }
 }

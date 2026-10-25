@@ -1,7 +1,5 @@
 package dev.practice.dsa.sliding_window;
 
-import java.util.*;
-
 /*
  * D08 — Minimum covering substring
  * ASCII strings. Return shortest substring of text containing every character of required with multiplicity. Ties: earliest start. Empty required or no cover returns empty string. O(text.length + required.length) time.
@@ -13,7 +11,7 @@ import java.util.*;
 public class MinimumWindow {
 
 
-    public String find(String text, String required) {
-        throw new UnsupportedOperationException("TODO D08: implement your solution");
-    }
+  public String find(String text, String required) {
+    throw new UnsupportedOperationException("TODO D08: implement your solution");
+  }
 }

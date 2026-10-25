@@ -1,9 +1,5 @@
 package dev.practice.dsa.intervals;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P17 — Merge closed intervals | 25 minutes
  * Evidence: Recommended.
@@ -23,7 +19,7 @@ import java.math.*;
  */
 public class MergeIntervals {
 
-    public int[][] merge(int[][] intervals) {
-        throw new UnsupportedOperationException("TODO P17: implement your solution");
-    }
+  public int[][] merge(int[][] intervals) {
+    throw new UnsupportedOperationException("TODO P17: implement your solution");
+  }
 }

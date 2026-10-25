@@ -1,9 +1,5 @@
 package dev.practice.backend;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P09 — Implement create/read/update/delete order operations | 60 minutes
  * Evidence: Adapted · Berlin REST report (S4); Java-focused Berlin CRUD report (S28).
@@ -44,21 +40,32 @@ import java.math.*;
  * Source S28: https://medium.com/@shilpikumari14049/delivery-hero-berlin-interview-experience-56c3b255119f
  */
 public class OrderApi {
-    public record CreateOrder(String sku, int quantity) {}
-    public record Order(String id, String sku, int quantity) {}
-    public record Response(int status, Order order) {}
-    public Response create(CreateOrder request) {
-        throw new UnsupportedOperationException("TODO P09: implement your solution");
-    }
 
-    public Response get(String id) {
-        throw new UnsupportedOperationException("TODO P09: implement your solution");
-    }
-    public Response update(String id, CreateOrder replacement) {
-        throw new UnsupportedOperationException("TODO P09: implement update");
-    }
+  public Response create(CreateOrder request) {
+    throw new UnsupportedOperationException("TODO P09: implement your solution");
+  }
 
-    public Response delete(String id) {
-        throw new UnsupportedOperationException("TODO P09: implement delete");
-    }
+  public Response get(String id) {
+    throw new UnsupportedOperationException("TODO P09: implement your solution");
+  }
+
+  public Response update(String id, CreateOrder replacement) {
+    throw new UnsupportedOperationException("TODO P09: implement update");
+  }
+
+  public Response delete(String id) {
+    throw new UnsupportedOperationException("TODO P09: implement delete");
+  }
+
+  public record CreateOrder(String sku, int quantity) {
+
+  }
+
+  public record Order(String id, String sku, int quantity) {
+
+  }
+
+  public record Response(int status, Order order) {
+
+  }
 }

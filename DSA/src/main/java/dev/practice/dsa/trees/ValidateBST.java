@@ -1,7 +1,5 @@
 package dev.practice.dsa.trees;
 
-import java.util.*;
-
 /*
  * D14 — Validate a binary search tree
  * Return whether all left descendants are strictly smaller and all right descendants strictly larger than each node. Duplicates invalid; null valid. At most 1000 nodes. O(n) time.
@@ -10,9 +8,18 @@ import java.util.*;
  * Run: ./mvnw -Dtest=ValidateBSTTest test
  */
 public class ValidateBST {
-    public static class Node { public final int value; public Node left, right; public Node(int value) { this.value=value; } }
 
-    public boolean valid(Node root) {
-        throw new UnsupportedOperationException("TODO D14: implement your solution");
+  public boolean valid(Node root) {
+    throw new UnsupportedOperationException("TODO D14: implement your solution");
+  }
+
+  public static class Node {
+
+    public final int value;
+    public Node left, right;
+
+    public Node(int value) {
+      this.value = value;
     }
+  }
 }

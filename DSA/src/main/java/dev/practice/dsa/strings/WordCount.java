@@ -27,25 +27,24 @@ package dev.practice.dsa.strings;
  */
 public class WordCount {
 
-    public int count(String text) {
-        if (text == null || text.isEmpty()) {
-            return 0;
-        }
-
-        int words = 0;
-        boolean inWord = false;
-
-
-        for (int i = 0; i < text.length(); i++) {
-            char current = text.charAt(i);
-            if (Character.isWhitespace(current)) {
-                inWord = false;
-            } else if (!inWord) {
-                words++;
-                inWord = true;
-            }
-        }
-
-        return words;
+  public int count(String text) {
+    if (text == null || text.isEmpty()) {
+      return 0;
     }
+
+    int words = 0;
+    boolean inWord = false;
+
+    for (int i = 0; i < text.length(); i++) {
+      char current = text.charAt(i);
+      if (Character.isWhitespace(current)) {
+        inWord = false;
+      } else if (!inWord) {
+        words++;
+        inWord = true;
+      }
+    }
+
+    return words;
+  }
 }

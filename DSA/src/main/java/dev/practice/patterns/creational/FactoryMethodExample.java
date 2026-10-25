@@ -11,39 +11,59 @@ package dev.practice.patterns.creational;
  * Try: add PushSender and Push without changing Sender.send().
  */
 public class FactoryMethodExample {
-    interface Channel {
-        void deliver(String message);
-    }
 
-    static class Email implements Channel {
-        public void deliver(String message) { System.out.println("Email: " + message); }
-    }
+  public static void main(String[] args) {
+    Sender emailSender = new EmailSender();
+    Sender smsSender = new SmsSender();
 
-    static class Sms implements Channel {
-        public void deliver(String message) { System.out.println("SMS: " + message); }
-    }
+    emailSender.send("Order accepted");
+    smsSender.send("Order accepted");
+  }
 
-    abstract static class Sender {
-        protected abstract Channel createChannel();
+  interface Channel {
 
-        public void send(String message) {
-            // Shared workflow; product creation is delegated to the subclass.
-            Channel channel = createChannel();
-            channel.deliver(message);
-        }
-    }
+    void deliver(String message);
+  }
 
-    static class EmailSender extends Sender {
-        protected Channel createChannel() { return new Email(); }
-    }
+  static class Email implements Channel {
 
-    static class SmsSender extends Sender {
-        protected Channel createChannel() { return new Sms(); }
+    public void deliver(String message) {
+      System.out.println("Email: " + message);
     }
+  }
 
-    public static void main(String[] args) {
-        new EmailSender().send("Order accepted");
-        new SmsSender().send("Order accepted");
+  static class Sms implements Channel {
+
+    public void deliver(String message) {
+      System.out.println("SMS: " + message);
     }
-    // Output: Email: Order accepted / SMS: Order accepted
+  }
+
+  abstract static class Sender {
+
+    protected abstract Channel createChannel();
+
+    public void send(String message) {
+      Channel channel = createChannel();
+      channel.deliver(message);
+    }
+  }
+
+  static class EmailSender extends Sender {
+
+    @Override
+    protected Channel createChannel() {
+      return new Email();
+    }
+  }
+
+  static class SmsSender extends Sender {
+
+    @Override
+    protected Channel createChannel() {
+      return new Sms();
+    }
+  }
+
+  // Output: Email: Order accepted / SMS: Order accepted
 }

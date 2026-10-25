@@ -24,30 +24,43 @@ package dev.practice.backend;
  * Source S26: https://medium.com/@essammohamedomran/real-world-interview-with-a-tech-manager-at-delivery-hero-9fc5e234e1e1
  */
 public class LegacyCheckout {
-    // Boundary supplied to make the exercise runnable; production wiring is your task.
-    public interface ConfigSource { String get(String key); }
 
-    // Existing production dependency: do not edit this nested class.
-    public static final class LegacyConfigurator {
-        private static final LegacyConfigurator INSTANCE = new LegacyConfigurator();
-        private LegacyConfigurator() {}
-        public static LegacyConfigurator instance() { return INSTANCE; }
-        public String get(String key) {
-            return switch (key) {
-                case "brand" -> "Delivery Hero";
-                case "express.enabled" -> "false";
-                default -> null;
-            };
-        }
+  public LegacyCheckout() {
+    throw new UnsupportedOperationException("TODO P62: wire the production dependency");
+  }
+
+  public LegacyCheckout(ConfigSource config) {
+    throw new UnsupportedOperationException("TODO P62: accept an isolated dependency");
+  }
+
+  public String deliveryLabel() {
+    throw new UnsupportedOperationException("TODO P62: implement the feature");
+  }
+
+  // Boundary supplied to make the exercise runnable; production wiring is your task.
+  public interface ConfigSource {
+
+    String get(String key);
+  }
+
+  // Existing production dependency: do not edit this nested class.
+  public static final class LegacyConfigurator {
+
+    private static final LegacyConfigurator INSTANCE = new LegacyConfigurator();
+
+    private LegacyConfigurator() {
     }
 
-    public LegacyCheckout() {
-        throw new UnsupportedOperationException("TODO P62: wire the production dependency");
+    public static LegacyConfigurator instance() {
+      return INSTANCE;
     }
-    public LegacyCheckout(ConfigSource config) {
-        throw new UnsupportedOperationException("TODO P62: accept an isolated dependency");
+
+    public String get(String key) {
+      return switch (key) {
+        case "brand" -> "Delivery Hero";
+        case "express.enabled" -> "false";
+        default -> null;
+      };
     }
-    public String deliveryLabel() {
-        throw new UnsupportedOperationException("TODO P62: implement the feature");
-    }
+  }
 }

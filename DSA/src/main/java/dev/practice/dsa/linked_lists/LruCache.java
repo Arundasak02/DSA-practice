@@ -1,8 +1,6 @@
 package dev.practice.dsa.linked_lists;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
+import java.util.OptionalInt;
 
 /*
  * P24 — Implement an LRU cache | 45 minutes
@@ -26,14 +24,16 @@ import java.math.*;
  * Source: curriculum recommendation; not a reported Delivery Hero question.
  */
 public class LruCache {
-    public LruCache(int capacity) {
-        // TODO: initialize cache state.
-    }
-    public OptionalInt get(int key) {
-        throw new UnsupportedOperationException("TODO P24: implement your solution");
-    }
 
-    public void put(int key, int value) {
-        throw new UnsupportedOperationException("TODO P24: implement your solution");
-    }
+  public LruCache(int capacity) {
+    // TODO: initialize cache state.
+  }
+
+  public OptionalInt get(int key) {
+    throw new UnsupportedOperationException("TODO P24: implement your solution");
+  }
+
+  public void put(int key, int value) {
+    throw new UnsupportedOperationException("TODO P24: implement your solution");
+  }
 }

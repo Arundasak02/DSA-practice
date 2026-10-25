@@ -1,6 +1,6 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
 
 /*
  * JS10 — Reduce a total safely | 25 minutes
@@ -20,7 +20,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS10Reduction {
-    public long sum(List<Integer> values) {
-        throw new UnsupportedOperationException("TODO JS10: implement your solution");
-    }
+
+  public long sum(List<Integer> values) {
+    throw new UnsupportedOperationException("TODO JS10: implement your solution");
+  }
 }

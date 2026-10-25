@@ -1,6 +1,7 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
 
 /*
  * JS05 — Sum salaries by department | 25 minutes
@@ -20,7 +21,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS05SalaryTotals {
-    public Map<String,Long> total(List<Employee> employees) {
-        throw new UnsupportedOperationException("TODO JS05: implement your solution");
-    }
+
+  public Map<String, Long> total(List<Employee> employees) {
+    throw new UnsupportedOperationException("TODO JS05: implement your solution");
+  }
 }

@@ -9,33 +9,37 @@ package dev.practice.patterns.structural;
  * Try: adapt a second provider with a different send method to Notifier.
  */
 public class AdapterExample {
-    interface Notifier {
-        void send(String message);
+
+  public static void main(String[] args) {
+    Notifier notifier = new SmsAdapter(new LegacySmsClient(), "demo-number");
+    notifier.send("Order accepted");
+  }
+
+  interface Notifier {
+
+    void send(String message);
+  }
+
+  static class LegacySmsClient {
+
+    void sendText(String phone, String text) {
+      System.out.println("SMS to " + phone + ": " + text);
+    }
+  }
+
+  static class SmsAdapter implements Notifier {
+
+    private final LegacySmsClient client;
+    private final String phone;
+
+    SmsAdapter(LegacySmsClient client, String phone) {
+      this.client = client;
+      this.phone = phone;
     }
 
-    static class LegacySmsClient {
-        void sendText(String phone, String text) {
-            System.out.println("SMS to " + phone + ": " + text);
-        }
+    public void send(String message) {
+      client.sendText(phone, message);
     }
-
-    static class SmsAdapter implements Notifier {
-        private final LegacySmsClient client;
-        private final String phone;
-
-        SmsAdapter(LegacySmsClient client, String phone) {
-            this.client = client;
-            this.phone = phone;
-        }
-
-        public void send(String message) {
-            client.sendText(phone, message);
-        }
-    }
-
-    public static void main(String[] args) {
-        Notifier notifier = new SmsAdapter(new LegacySmsClient(), "demo-number");
-        notifier.send("Order accepted");
-    }
-    // Output: SMS to demo-number: Order accepted
+  }
+  // Output: SMS to demo-number: Order accepted
 }

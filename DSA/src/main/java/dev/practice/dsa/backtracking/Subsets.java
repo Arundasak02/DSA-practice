@@ -1,6 +1,6 @@
 package dev.practice.dsa.backtracking;
 
-import java.util.*;
+import java.util.List;
 
 /*
  * D15 — Generate all subsets
@@ -12,7 +12,7 @@ import java.util.*;
 public class Subsets {
 
 
-    public List<List<Integer>> generate(int[] values) {
-        throw new UnsupportedOperationException("TODO D15: implement your solution");
-    }
+  public List<List<Integer>> generate(int[] values) {
+    throw new UnsupportedOperationException("TODO D15: implement your solution");
+  }
 }

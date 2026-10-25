@@ -11,29 +11,40 @@ import java.util.Map;
  * Try: add Multiply without changing Literal or Variable.
  */
 public class InterpreterExample {
-    interface Expression { long evaluate(Map<String, Long> context); }
 
-    record Literal(long value) implements Expression {
-        public long evaluate(Map<String, Long> context) { return value; }
-    }
+  public static void main(String[] args) {
+    Expression expression = new Add(new Variable("price"), new Literal(5));
+    System.out.println(expression.evaluate(Map.of("price", 100L)));
+  }
 
-    record Variable(String name) implements Expression {
-        public long evaluate(Map<String, Long> context) {
-            Long value = context.get(name);
-            if (value == null) throw new IllegalArgumentException("Unknown variable: " + name);
-            return value;
-        }
-    }
+  interface Expression {
 
-    record Add(Expression left, Expression right) implements Expression {
-        public long evaluate(Map<String, Long> context) {
-            return Math.addExact(left.evaluate(context), right.evaluate(context));
-        }
-    }
+    long evaluate(Map<String, Long> context);
+  }
 
-    public static void main(String[] args) {
-        Expression expression = new Add(new Variable("price"), new Literal(5));
-        System.out.println(expression.evaluate(Map.of("price", 100L)));
+  record Literal(long value) implements Expression {
+
+    public long evaluate(Map<String, Long> context) {
+      return value;
     }
-    // Output: 105
+  }
+
+  record Variable(String name) implements Expression {
+
+    public long evaluate(Map<String, Long> context) {
+      Long value = context.get(name);
+      if (value == null) {
+        throw new IllegalArgumentException("Unknown variable: " + name);
+      }
+      return value;
+    }
+  }
+
+  record Add(Expression left, Expression right) implements Expression {
+
+    public long evaluate(Map<String, Long> context) {
+      return Math.addExact(left.evaluate(context), right.evaluate(context));
+    }
+  }
+  // Output: 105
 }

@@ -1,6 +1,7 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
+import java.util.OptionalInt;
 
 /*
  * JS02 — Second-largest DISTINCT value | 25 minutes
@@ -20,7 +21,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS02SecondLargest {
-    public OptionalInt find(List<Integer> values) {
-        throw new UnsupportedOperationException("TODO JS02: implement your solution");
-    }
+
+  public OptionalInt find(List<Integer> values) {
+    throw new UnsupportedOperationException("TODO JS02: implement your solution");
+  }
 }

@@ -1,7 +1,6 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
+import java.util.function.Consumer;
 
 /*
  * DP03 — Adapt and decorate a notification sender | 45 minutes
@@ -19,10 +18,32 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class NotificationPipeline {
-    @FunctionalInterface public interface Sender { String send(String recipient, String text); }
-    @FunctionalInterface public interface LegacySms { String submit(String body, String phone); }
-    public static class TemporaryFailure extends RuntimeException {}
-    public static Sender adapt(LegacySms legacy) { throw new UnsupportedOperationException("TODO DP03"); }
-    public static Sender logged(Sender delegate, Consumer<String> log) { throw new UnsupportedOperationException("TODO DP03"); }
-    public static Sender retrying(Sender delegate, int attempts) { throw new UnsupportedOperationException("TODO DP03"); }
+
+  public static Sender adapt(LegacySms legacy) {
+    throw new UnsupportedOperationException("TODO DP03");
+  }
+
+  public static Sender logged(Sender delegate, Consumer<String> log) {
+    throw new UnsupportedOperationException("TODO DP03");
+  }
+
+  public static Sender retrying(Sender delegate, int attempts) {
+    throw new UnsupportedOperationException("TODO DP03");
+  }
+
+  @FunctionalInterface
+  public interface Sender {
+
+    String send(String recipient, String text);
+  }
+
+  @FunctionalInterface
+  public interface LegacySms {
+
+    String submit(String body, String phone);
+  }
+
+  public static class TemporaryFailure extends RuntimeException {
+
+  }
 }

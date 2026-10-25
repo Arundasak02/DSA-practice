@@ -1,7 +1,5 @@
 package dev.practice.dsa.bits;
 
-import java.util.*;
-
 /*
  * D20 — Count set bits from zero through n
  * For 0<=n<=1,000,000 return int[n+1] where result[i] is number of set bits of i. O(n) time; derive from a smaller previously computed value.
@@ -12,7 +10,7 @@ import java.util.*;
 public class CountingBits {
 
 
-    public int[] count(int n) {
-        throw new UnsupportedOperationException("TODO D20: implement your solution");
-    }
+  public int[] count(int n) {
+    throw new UnsupportedOperationException("TODO D20: implement your solution");
+  }
 }

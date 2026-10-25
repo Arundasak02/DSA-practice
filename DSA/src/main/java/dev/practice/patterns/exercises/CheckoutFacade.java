@@ -1,8 +1,5 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
-
 /*
  * DP11 — Checkout with compatible provider families | 45 minutes
  * Patterns to practise: Abstract Factory + Facade
@@ -20,9 +17,33 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class CheckoutFacade {
-    @FunctionalInterface public interface Payments { String charge(String orderId, long cents); }
-    @FunctionalInterface public interface Receipts { String issue(String orderId, String paymentId); }
-    public interface Factory { Payments payments(); Receipts receipts(); }
-    @FunctionalInterface public interface Checkout { String place(String orderId, long cents); }
-    public static Checkout checkout(Factory factory) { throw new UnsupportedOperationException("TODO DP11"); }
+
+  public static Checkout checkout(Factory factory) {
+    throw new UnsupportedOperationException("TODO DP11");
+  }
+
+  @FunctionalInterface
+  public interface Payments {
+
+    String charge(String orderId, long cents);
+  }
+
+  @FunctionalInterface
+  public interface Receipts {
+
+    String issue(String orderId, String paymentId);
+  }
+
+  public interface Factory {
+
+    Payments payments();
+
+    Receipts receipts();
+  }
+
+  @FunctionalInterface
+  public interface Checkout {
+
+    String place(String orderId, long cents);
+  }
 }

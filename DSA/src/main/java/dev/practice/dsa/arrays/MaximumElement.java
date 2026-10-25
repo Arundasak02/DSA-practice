@@ -14,7 +14,8 @@ package dev.practice.dsa.arrays;
  * Source S20: https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0%2C13_KO14%2C38.htm
  */
 public class MaximumElement {
-    public int find(int[] values) {
-        throw new UnsupportedOperationException("TODO P40: implement your solution");
-    }
+
+  public int find(int[] values) {
+    throw new UnsupportedOperationException("TODO P40: implement your solution");
+  }
 }

@@ -1,7 +1,7 @@
 package dev.practice.backend;
 
-import java.util.function.ToIntFunction;
 import dev.practice.dsa.strings.WordCount;
+import java.util.function.ToIntFunction;
 
 /*
  * P68 — Write tests for word counting | 30 minutes
@@ -27,8 +27,11 @@ import dev.practice.dsa.strings.WordCount;
  * Source S1: https://leetcode.com/discuss/post/1413476/delivery-hero-se2sse1-berlin-august-2021-awaiting-result/
  */
 public final class WordCountTestDesign {
-    private WordCountTestDesign() {}
-    public static ToIntFunction<String> subject() {
-        return new WordCount()::count;
-    }
+
+  private WordCountTestDesign() {
+  }
+
+  public static ToIntFunction<String> subject() {
+    return new WordCount()::count;
+  }
 }

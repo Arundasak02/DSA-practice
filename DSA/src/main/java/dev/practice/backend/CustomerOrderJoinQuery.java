@@ -1,9 +1,5 @@
 package dev.practice.backend;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P47 — Join customers with their orders | 25 minutes
  * Evidence: Adapted · Delivery Hero senior Python SQL join report.
@@ -29,7 +25,7 @@ import java.math.*;
  */
 public class CustomerOrderJoinQuery {
 
-    public String query() {
-        throw new UnsupportedOperationException("TODO P47: implement your solution");
-    }
+  public String query() {
+    throw new UnsupportedOperationException("TODO P47: implement your solution");
+  }
 }

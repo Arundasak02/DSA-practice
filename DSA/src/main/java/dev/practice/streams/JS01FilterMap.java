@@ -1,6 +1,6 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
 
 /*
  * JS01 — Filter and map values | 25 minutes
@@ -20,7 +20,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS01FilterMap {
-    public List<Long> solve(List<Integer> values) {
-        throw new UnsupportedOperationException("TODO JS01: implement your solution");
-    }
+
+  public List<Long> solve(List<Integer> values) {
+    throw new UnsupportedOperationException("TODO JS01: implement your solution");
+  }
 }

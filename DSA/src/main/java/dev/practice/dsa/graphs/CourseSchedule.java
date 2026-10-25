@@ -1,9 +1,5 @@
 package dev.practice.dsa.graphs;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P28 — Detect cyclic dependencies | 35 minutes
  * Evidence: Recommended.
@@ -23,7 +19,7 @@ import java.math.*;
  */
 public class CourseSchedule {
 
-    public boolean canFinish(int count, int[][] prerequisites) {
-        throw new UnsupportedOperationException("TODO P28: implement your solution");
-    }
+  public boolean canFinish(int count, int[][] prerequisites) {
+    throw new UnsupportedOperationException("TODO P28: implement your solution");
+  }
 }

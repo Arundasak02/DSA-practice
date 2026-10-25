@@ -21,14 +21,19 @@ package dev.practice.dsa.linked_lists;
  * Source: https://www.reddit.com/r/leetcode/comments/1f0foha/
  */
 public class LfuCache {
-    public LfuCache(int capacity) {
-        if (capacity < 0) throw new IllegalArgumentException("capacity must be nonnegative");
-        // TODO: initialize state.
+
+  public LfuCache(int capacity) {
+    if (capacity < 0) {
+      throw new IllegalArgumentException("capacity must be nonnegative");
     }
-    public java.util.OptionalInt get(int key) {
-        throw new UnsupportedOperationException("TODO P67: implement your solution");
-    }
-    public void put(int key, int value) {
-        throw new UnsupportedOperationException("TODO P67: implement your solution");
-    }
+    // TODO: initialize state.
+  }
+
+  public java.util.OptionalInt get(int key) {
+    throw new UnsupportedOperationException("TODO P67: implement your solution");
+  }
+
+  public void put(int key, int value) {
+    throw new UnsupportedOperationException("TODO P67: implement your solution");
+  }
 }

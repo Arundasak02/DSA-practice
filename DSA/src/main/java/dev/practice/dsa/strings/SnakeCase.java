@@ -24,7 +24,8 @@ package dev.practice.dsa.strings;
  * Source: https://www.glassdoor.co.uk/Interview/Q-Write-a-function-to-convert-camelCase-to-snake-case-QTN_6882053.htm
  */
 public class SnakeCase {
-    public String convert(String input) {
-        throw new UnsupportedOperationException("TODO P66: implement your solution");
-    }
+
+  public String convert(String input) {
+    throw new UnsupportedOperationException("TODO P66: implement your solution");
+  }
 }

@@ -1,9 +1,5 @@
 package dev.practice.dsa.arrays;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P07 — Sort each consecutive chunk | 25 minutes
  * Evidence: Reported · Berlin senior Go; ambiguous wording adapted.
@@ -24,7 +20,7 @@ import java.math.*;
  */
 public class ChunkSort {
 
-    public int[] sort(int[] values, int k) {
-        throw new UnsupportedOperationException("TODO P07: implement your solution");
-    }
+  public int[] sort(int[] values, int k) {
+    throw new UnsupportedOperationException("TODO P07: implement your solution");
+  }
 }

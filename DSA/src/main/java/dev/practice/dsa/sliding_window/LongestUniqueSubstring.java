@@ -1,9 +1,5 @@
 package dev.practice.dsa.sliding_window;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P15 — Longest substring without repeated characters | 25 minutes
  * Evidence: Recommended.
@@ -22,7 +18,7 @@ import java.math.*;
  */
 public class LongestUniqueSubstring {
 
-    public int length(String text) {
-        throw new UnsupportedOperationException("TODO P15: implement your solution");
-    }
+  public int length(String text) {
+    throw new UnsupportedOperationException("TODO P15: implement your solution");
+  }
 }

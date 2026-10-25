@@ -1,8 +1,5 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
-
 /*
  * DP07 — Text editor with undo and redo | 60 minutes
  * Patterns to practise: Command + Memento
@@ -19,6 +16,21 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class UndoableEditor {
-    public interface Editor { String text(); void append(String text); void deleteLast(int count); boolean undo(); boolean redo(); }
-    public static Editor create() { throw new UnsupportedOperationException("TODO DP07"); }
+
+  public static Editor create() {
+    throw new UnsupportedOperationException("TODO DP07");
+  }
+
+  public interface Editor {
+
+    String text();
+
+    void append(String text);
+
+    void deleteLast(int count);
+
+    boolean undo();
+
+    boolean redo();
+  }
 }

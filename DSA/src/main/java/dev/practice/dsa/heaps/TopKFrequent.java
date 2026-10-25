@@ -1,8 +1,6 @@
 package dev.practice.dsa.heaps;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
+import java.util.List;
 
 /*
  * P32 — Top k frequent values with deterministic ties | 30 minutes
@@ -22,7 +20,7 @@ import java.math.*;
  */
 public class TopKFrequent {
 
-    public List<Integer> top(int[] values, int k) {
-        throw new UnsupportedOperationException("TODO P32: implement your solution");
-    }
+  public List<Integer> top(int[] values, int k) {
+    throw new UnsupportedOperationException("TODO P32: implement your solution");
+  }
 }

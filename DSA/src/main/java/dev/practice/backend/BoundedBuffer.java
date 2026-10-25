@@ -1,9 +1,5 @@
 package dev.practice.backend;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P57 — Implement a bounded blocking FIFO queue | 50 minutes
  * Evidence: Recommended · Java translation of concurrency preparation.
@@ -28,18 +24,20 @@ import java.math.*;
  * Source: curriculum recommendation; not a reported Delivery Hero question.
  */
 public class BoundedBuffer {
-    public BoundedBuffer(int capacity) {
-        // TODO: initialize queue state and synchronization.
-    }
-    public void put(int value) throws InterruptedException {
-        throw new UnsupportedOperationException("TODO P57: implement your solution");
-    }
 
-    public int take() throws InterruptedException {
-        throw new UnsupportedOperationException("TODO P57: implement your solution");
-    }
+  public BoundedBuffer(int capacity) {
+    // TODO: initialize queue state and synchronization.
+  }
 
-    public int size() {
-        throw new UnsupportedOperationException("TODO P57: implement your solution");
-    }
+  public void put(int value) throws InterruptedException {
+    throw new UnsupportedOperationException("TODO P57: implement your solution");
+  }
+
+  public int take() throws InterruptedException {
+    throw new UnsupportedOperationException("TODO P57: implement your solution");
+  }
+
+  public int size() {
+    throw new UnsupportedOperationException("TODO P57: implement your solution");
+  }
 }

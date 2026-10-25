@@ -1,9 +1,5 @@
 package dev.practice.dsa.linked_lists;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P23 — Reverse a singly linked list | 25 minutes
  * Evidence: Reported · foodpanda software engineer, Singapore.
@@ -21,12 +17,18 @@ import java.math.*;
  * Source S17: https://www.glassdoor.com/Interview/Reverse-a-linked-list-iteratively-and-recursively-QTN_8665042.htm
  */
 public class ReverseList {
-    public static class Node {
-        public final int value;
-        public Node next;
-        public Node(int value) { this.value = value; }
+
+  public Node reverse(Node head) {
+    throw new UnsupportedOperationException("TODO P23: implement your solution");
+  }
+
+  public static class Node {
+
+    public final int value;
+    public Node next;
+
+    public Node(int value) {
+      this.value = value;
     }
-    public Node reverse(Node head) {
-        throw new UnsupportedOperationException("TODO P23: implement your solution");
-    }
+  }
 }

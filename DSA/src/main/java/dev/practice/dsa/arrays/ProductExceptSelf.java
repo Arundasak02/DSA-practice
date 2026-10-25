@@ -1,7 +1,5 @@
 package dev.practice.dsa.arrays;
 
-import java.util.*;
-
 /*
  * D02 — Product of array except self
  * Return long[] products excluding each index, without division. Length >=2; every intermediate/product fits long. O(n) time, O(1) auxiliary space excluding output.
@@ -12,7 +10,7 @@ import java.util.*;
 public class ProductExceptSelf {
 
 
-    public long[] products(int[] values) {
-        throw new UnsupportedOperationException("TODO D02: implement your solution");
-    }
+  public long[] products(int[] values) {
+    throw new UnsupportedOperationException("TODO D02: implement your solution");
+  }
 }

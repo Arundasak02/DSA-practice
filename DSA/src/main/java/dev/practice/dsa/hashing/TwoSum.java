@@ -1,9 +1,5 @@
 package dev.practice.dsa.hashing;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P14 — Find two indices for a target | 20 minutes
  * Evidence: Reported · Delivery Hero Berlin senior, Oct/Nov 2025; language-independent.
@@ -23,7 +19,7 @@ import java.math.*;
  */
 public class TwoSum {
 
-    public int[] find(int[] values, long target) {
-        throw new UnsupportedOperationException("TODO P14: implement your solution");
-    }
+  public int[] find(int[] values, long target) {
+    throw new UnsupportedOperationException("TODO P14: implement your solution");
+  }
 }

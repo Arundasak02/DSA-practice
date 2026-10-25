@@ -1,6 +1,7 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
 
 /*
  * JS03 — Count word frequencies | 25 minutes
@@ -20,7 +21,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS03WordFrequencies {
-    public Map<String,Long> count(List<String> words) {
-        throw new UnsupportedOperationException("TODO JS03: implement your solution");
-    }
+
+  public Map<String, Long> count(List<String> words) {
+    throw new UnsupportedOperationException("TODO JS03: implement your solution");
+  }
 }

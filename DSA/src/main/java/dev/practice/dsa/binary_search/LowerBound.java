@@ -1,9 +1,5 @@
 package dev.practice.dsa.binary_search;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P19 — First position at least the target | 20 minutes
  * Evidence: Recommended · binary-search family reported for Java SDE2; exact task undisclosed.
@@ -22,7 +18,7 @@ import java.math.*;
  */
 public class LowerBound {
 
-    public int index(int[] values, int target) {
-        throw new UnsupportedOperationException("TODO P19: implement your solution");
-    }
+  public int index(int[] values, int target) {
+    throw new UnsupportedOperationException("TODO P19: implement your solution");
+  }
 }

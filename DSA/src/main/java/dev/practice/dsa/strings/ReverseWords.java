@@ -1,7 +1,5 @@
 package dev.practice.dsa.strings;
 
-import java.util.*;
-
 /*
  * SM09 — Reverse word order | 15 minutes
  * Evidence: Recommended string manipulation; not established as a DH question
@@ -18,7 +16,8 @@ import java.util.*;
  * Run: ./mvnw -Dtest=ReverseWordsTest test
  */
 public class ReverseWords {
-    public String reverse(String text) {
-        throw new UnsupportedOperationException("TODO SM09: implement your solution");
-    }
+
+  public String reverse(String text) {
+    throw new UnsupportedOperationException("TODO SM09: implement your solution");
+  }
 }

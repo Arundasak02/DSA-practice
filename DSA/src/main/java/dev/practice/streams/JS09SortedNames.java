@@ -1,6 +1,6 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
 
 /*
  * JS09 — Sort employees with deterministic ties | 25 minutes
@@ -20,7 +20,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS09SortedNames {
-    public List<String> names(List<Employee> employees) {
-        throw new UnsupportedOperationException("TODO JS09: implement your solution");
-    }
+
+  public List<String> names(List<Employee> employees) {
+    throw new UnsupportedOperationException("TODO JS09: implement your solution");
+  }
 }

@@ -1,7 +1,6 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
+import java.util.List;
 
 /*
  * DP10 — Aggregate nested portfolios | 45 minutes
@@ -19,7 +18,18 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class PortfolioComposite {
-    @FunctionalInterface public interface Asset { long totalCents(); }
-    public static Asset position(long cents) { throw new UnsupportedOperationException("TODO DP10"); }
-    public static Asset portfolio(List<Asset> children) { throw new UnsupportedOperationException("TODO DP10"); }
+
+  public static Asset position(long cents) {
+    throw new UnsupportedOperationException("TODO DP10");
+  }
+
+  public static Asset portfolio(List<Asset> children) {
+    throw new UnsupportedOperationException("TODO DP10");
+  }
+
+  @FunctionalInterface
+  public interface Asset {
+
+    long totalCents();
+  }
 }

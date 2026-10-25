@@ -1,7 +1,6 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
+import java.util.function.BiPredicate;
 
 /*
  * DP09 — Authorized caching report proxy | 45 minutes
@@ -19,6 +18,14 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class ReportProxy {
-    @FunctionalInterface public interface ReportService { String fetch(String user, String report); }
-    public static ReportService create(ReportService delegate, BiPredicate<String,String> allowed) { throw new UnsupportedOperationException("TODO DP09"); }
+
+  public static ReportService create(ReportService delegate, BiPredicate<String, String> allowed) {
+    throw new UnsupportedOperationException("TODO DP09");
+  }
+
+  @FunctionalInterface
+  public interface ReportService {
+
+    String fetch(String user, String report);
+  }
 }

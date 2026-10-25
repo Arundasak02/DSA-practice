@@ -1,7 +1,6 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
+import java.util.List;
 
 /*
  * DP08 — Reusable import workflow | 45 minutes
@@ -19,10 +18,19 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class ImportWorkflow {
-    public static abstract class Importer {
-        public final int run(List<String> lines) { throw new UnsupportedOperationException("TODO DP08"); }
-        protected abstract String parse(String line);
-        protected void validate(String value) { throw new UnsupportedOperationException("TODO DP08"); }
-        protected abstract void save(List<String> values);
+
+  public static abstract class Importer {
+
+    public final int run(List<String> lines) {
+      throw new UnsupportedOperationException("TODO DP08");
     }
+
+    protected abstract String parse(String line);
+
+    protected void validate(String value) {
+      throw new UnsupportedOperationException("TODO DP08");
+    }
+
+    protected abstract void save(List<String> values);
+  }
 }

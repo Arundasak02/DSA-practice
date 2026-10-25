@@ -1,7 +1,5 @@
 package dev.practice.dsa.stacks;
 
-import java.util.*;
-
 /*
  * D10 — Days until warmer temperature
  * For each temperature return days until a strictly warmer value, or 0 if none. Equal temperatures are not warmer. O(n) time.
@@ -13,7 +11,7 @@ import java.util.*;
 public class DailyTemperatures {
 
 
-    public int[] waits(int[] temperatures) {
-        throw new UnsupportedOperationException("TODO D10: implement your solution");
-    }
+  public int[] waits(int[] temperatures) {
+    throw new UnsupportedOperationException("TODO D10: implement your solution");
+  }
 }

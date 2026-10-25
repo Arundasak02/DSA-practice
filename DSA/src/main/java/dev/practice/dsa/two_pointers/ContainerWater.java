@@ -1,7 +1,5 @@
 package dev.practice.dsa.two_pointers;
 
-import java.util.*;
-
 /*
  * D06 — Container with most water
  * Nonnegative heights; choose two lines to maximize width times lower height. Return long; fewer than two lines returns 0. O(n) time/O(1) space.
@@ -12,7 +10,7 @@ import java.util.*;
 public class ContainerWater {
 
 
-    public long maximum(int[] heights) {
-        throw new UnsupportedOperationException("TODO D06: implement your solution");
-    }
+  public long maximum(int[] heights) {
+    throw new UnsupportedOperationException("TODO D06: implement your solution");
+  }
 }

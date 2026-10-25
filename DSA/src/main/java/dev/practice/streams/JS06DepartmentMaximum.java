@@ -1,6 +1,7 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
 
 /*
  * JS06 — Highest-paid employee per department | 25 minutes
@@ -20,7 +21,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS06DepartmentMaximum {
-    public Map<String,Employee> highest(List<Employee> employees) {
-        throw new UnsupportedOperationException("TODO JS06: implement your solution");
-    }
+
+  public Map<String, Employee> highest(List<Employee> employees) {
+    throw new UnsupportedOperationException("TODO JS06: implement your solution");
+  }
 }

@@ -1,9 +1,5 @@
 package dev.practice.dsa.strings;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P03 — Compare OCR strings with unknown runs | 40 minutes
  * Evidence: Reported · Berlin SE2/SSE1; grammar reconstructed.
@@ -31,7 +27,7 @@ import java.math.*;
  */
 public class OcrCompatibility {
 
-    public boolean compatible(String left, String right) {
-        throw new UnsupportedOperationException("TODO P03: implement your solution");
-    }
+  public boolean compatible(String left, String right) {
+    throw new UnsupportedOperationException("TODO P03: implement your solution");
+  }
 }

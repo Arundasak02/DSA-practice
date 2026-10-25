@@ -1,9 +1,5 @@
 package dev.practice.backend;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P34 — Create orders safely under duplicate retries | 45 minutes
  * Evidence: Recommended · related idempotency topic reported, task authored.
@@ -29,8 +25,12 @@ import java.math.*;
  * Source S7: https://www.glassdoor.co.uk/Interview/Delivery-Hero-Software-Engineer-II-Interview-Questions-EI_IE504556.0%2C13_KO14%2C34.htm
  */
 public class IdempotentOrders {
-    public record Order(String id, String sku, int quantity) {}
-    public Order create(String key, String sku, int quantity) {
-        throw new UnsupportedOperationException("TODO P34: implement your solution");
-    }
+
+  public Order create(String key, String sku, int quantity) {
+    throw new UnsupportedOperationException("TODO P34: implement your solution");
+  }
+
+  public record Order(String id, String sku, int quantity) {
+
+  }
 }

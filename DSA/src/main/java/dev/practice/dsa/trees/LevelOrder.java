@@ -1,8 +1,6 @@
 package dev.practice.dsa.trees;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
+import java.util.List;
 
 /*
  * P26 — Traverse a binary tree level by level | 25 minutes
@@ -21,12 +19,18 @@ import java.math.*;
  * Source: curriculum recommendation; not a reported Delivery Hero question.
  */
 public class LevelOrder {
-    public static class Node {
-        public final int value;
-        public Node left, right;
-        public Node(int value) { this.value = value; }
+
+  public List<List<Integer>> levels(Node root) {
+    throw new UnsupportedOperationException("TODO P26: implement your solution");
+  }
+
+  public static class Node {
+
+    public final int value;
+    public Node left, right;
+
+    public Node(int value) {
+      this.value = value;
     }
-    public List<List<Integer>> levels(Node root) {
-        throw new UnsupportedOperationException("TODO P26: implement your solution");
-    }
+  }
 }

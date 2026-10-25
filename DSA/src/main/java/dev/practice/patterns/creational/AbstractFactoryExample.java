@@ -1,7 +1,5 @@
 package dev.practice.patterns.creational;
 
-import java.util.*;
-
 /*
  * ABSTRACT FACTORY — create a compatible family of related products.
  * GatewayFactory creates both Payments and Receipts; SandboxFactory supplies one family.
@@ -10,23 +8,52 @@ import java.util.*;
  * Try: add a LiveFactory without changing Checkout.
  */
 public class AbstractFactoryExample {
-    interface Payments { String charge(); }
-    interface Receipts { String create(); }
-    interface GatewayFactory { Payments payments(); Receipts receipts(); }
-    static class SandboxFactory implements GatewayFactory {
-        public Payments payments() { return () -> "test-charge"; }
-        public Receipts receipts() { return () -> "test-receipt"; }
+
+  public static void main(String[] args) {
+    System.out.println(new Checkout(new SandboxFactory()).run());
+  }
+
+  interface Payments {
+
+    String charge();
+  }
+
+  interface Receipts {
+
+    String create();
+  }
+
+  interface GatewayFactory {
+
+    Payments payments();
+
+    Receipts receipts();
+  }
+
+  static class SandboxFactory implements GatewayFactory {
+
+    public Payments payments() {
+      return () -> "test-charge";
     }
-    static class Checkout {
-        private final Payments payments;
-        private final Receipts receipts;
-        Checkout(GatewayFactory factory) {
-            payments = factory.payments(); receipts = factory.receipts();
-        }
-        String run() { return payments.charge() + "/" + receipts.create(); }
+
+    public Receipts receipts() {
+      return () -> "test-receipt";
     }
-    public static void main(String[] args) {
-        System.out.println(new Checkout(new SandboxFactory()).run());
+  }
+
+  static class Checkout {
+
+    private final Payments payments;
+    private final Receipts receipts;
+
+    Checkout(GatewayFactory factory) {
+      payments = factory.payments();
+      receipts = factory.receipts();
     }
-    // Output: test-charge/test-receipt
+
+    String run() {
+      return payments.charge() + "/" + receipts.create();
+    }
+  }
+  // Output: test-charge/test-receipt
 }

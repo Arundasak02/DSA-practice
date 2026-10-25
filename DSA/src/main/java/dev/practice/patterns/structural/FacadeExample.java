@@ -12,39 +12,50 @@ package dev.practice.patterns.structural;
  * Try: describe what should happen if payment fails after inventory is reserved.
  */
 public class FacadeExample {
-    static class Inventory {
-        void reserve(String item) { System.out.println("Reserved: " + item); }
+
+  public static void main(String[] args) {
+    var checkout = new CheckoutFacade(new Inventory(), new Payment(), new Confirmation());
+    checkout.placeOrder("Coffee", 200);
+  }
+
+  static class Inventory {
+
+    void reserve(String item) {
+      System.out.println("Reserved: " + item);
+    }
+  }
+
+  static class Payment {
+
+    void charge(int cents) {
+      System.out.println("Charged: " + cents + " cents");
+    }
+  }
+
+  static class Confirmation {
+
+    void send() {
+      System.out.println("Confirmation sent");
+    }
+  }
+
+  static class CheckoutFacade {
+
+    private final Inventory inventory;
+    private final Payment payment;
+    private final Confirmation confirmation;
+
+    CheckoutFacade(Inventory inventory, Payment payment, Confirmation confirmation) {
+      this.inventory = inventory;
+      this.payment = payment;
+      this.confirmation = confirmation;
     }
 
-    static class Payment {
-        void charge(int cents) { System.out.println("Charged: " + cents + " cents"); }
+    void placeOrder(String item, int cents) {
+      inventory.reserve(item);
+      payment.charge(cents);
+      confirmation.send();
     }
-
-    static class Confirmation {
-        void send() { System.out.println("Confirmation sent"); }
-    }
-
-    static class CheckoutFacade {
-        private final Inventory inventory;
-        private final Payment payment;
-        private final Confirmation confirmation;
-
-        CheckoutFacade(Inventory inventory, Payment payment, Confirmation confirmation) {
-            this.inventory = inventory;
-            this.payment = payment;
-            this.confirmation = confirmation;
-        }
-
-        void placeOrder(String item, int cents) {
-            inventory.reserve(item);
-            payment.charge(cents);
-            confirmation.send();
-        }
-    }
-
-    public static void main(String[] args) {
-        var checkout = new CheckoutFacade(new Inventory(), new Payment(), new Confirmation());
-        checkout.placeOrder("Coffee", 200);
-    }
-    // Output: Reserved: Coffee / Charged: 200 cents / Confirmation sent
+  }
+  // Output: Reserved: Coffee / Charged: 200 cents / Confirmation sent
 }

@@ -1,6 +1,6 @@
 package dev.practice.dsa.strings;
 
-import java.util.*;
+import java.util.OptionalInt;
 
 /*
  * SM06 — First non-repeated code point | 25 minutes
@@ -22,7 +22,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class FirstUnique {
-    public OptionalInt find(String text) {
-        throw new UnsupportedOperationException("TODO SM06: implement your solution");
-    }
+
+  public OptionalInt find(String text) {
+    throw new UnsupportedOperationException("TODO SM06: implement your solution");
+  }
 }

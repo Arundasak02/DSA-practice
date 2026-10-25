@@ -1,9 +1,5 @@
 package dev.practice.dsa.heaps;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P08 — Maintain the median of a stream | 40 minutes
  * Evidence: Reported · Berlin senior Go.
@@ -25,11 +21,11 @@ import java.math.*;
  */
 public class StreamingMedian {
 
-    public void add(int value) {
-        throw new UnsupportedOperationException("TODO P08: implement your solution");
-    }
+  public void add(int value) {
+    throw new UnsupportedOperationException("TODO P08: implement your solution");
+  }
 
-    public double median() {
-        throw new UnsupportedOperationException("TODO P08: implement your solution");
-    }
+  public double median() {
+    throw new UnsupportedOperationException("TODO P08: implement your solution");
+  }
 }

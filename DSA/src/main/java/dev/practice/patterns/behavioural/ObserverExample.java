@@ -11,33 +11,41 @@ package dev.practice.patterns.behavioural;
  * Try: unsubscribe the customer before the second update; decide an exception-handling policy.
  */
 public class ObserverExample {
-    interface OrderListener {
-        void onStatusChanged(String status);
+
+  public static void main(String[] args) {
+    Order order = new Order();
+    OrderListener customer = status -> System.out.println("Customer: " + status);
+    OrderListener audit = status -> System.out.println("Audit: " + status);
+    order.subscribe(customer);
+    order.subscribe(audit);
+    order.changeStatus("ACCEPTED");
+    order.unsubscribe(customer);
+    order.changeStatus("DISPATCHED");
+  }
+
+  interface OrderListener {
+
+    void onStatusChanged(String status);
+  }
+
+  static class Order {
+
+    private final java.util.List<OrderListener> listeners = new java.util.ArrayList<>();
+
+    void subscribe(OrderListener listener) {
+      listeners.add(listener);
     }
 
-    static class Order {
-        private final java.util.List<OrderListener> listeners = new java.util.ArrayList<>();
-
-        void subscribe(OrderListener listener) { listeners.add(listener); }
-        void unsubscribe(OrderListener listener) { listeners.remove(listener); }
-
-        void changeStatus(String status) {
-            // Snapshot lets a callback subscribe/unsubscribe without changing this iteration.
-            for (OrderListener listener : java.util.List.copyOf(listeners)) {
-                listener.onStatusChanged(status);
-            }
-        }
+    void unsubscribe(OrderListener listener) {
+      listeners.remove(listener);
     }
 
-    public static void main(String[] args) {
-        Order order = new Order();
-        OrderListener customer = status -> System.out.println("Customer: " + status);
-        OrderListener audit = status -> System.out.println("Audit: " + status);
-        order.subscribe(customer);
-        order.subscribe(audit);
-        order.changeStatus("ACCEPTED");
-        order.unsubscribe(customer);
-        order.changeStatus("DISPATCHED");
+    void changeStatus(String status) {
+      // Snapshot lets a callback subscribe/unsubscribe without changing this iteration.
+      for (OrderListener listener : java.util.List.copyOf(listeners)) {
+        listener.onStatusChanged(status);
+      }
     }
-    // Output: Customer: ACCEPTED / Audit: ACCEPTED / Audit: DISPATCHED
+  }
+  // Output: Customer: ACCEPTED / Audit: ACCEPTED / Audit: DISPATCHED
 }

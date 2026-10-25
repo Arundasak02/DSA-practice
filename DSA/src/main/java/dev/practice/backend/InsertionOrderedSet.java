@@ -1,8 +1,8 @@
 package dev.practice.backend;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
+import java.util.List;
+import java.util.OptionalInt;
+import java.util.Set;
 
 /*
  * P43 — Design a set with insertion order and stack-like pop | 45 minutes
@@ -28,27 +28,27 @@ import java.math.*;
  */
 public class InsertionOrderedSet {
 
-    public void push(int value) {
-        throw new UnsupportedOperationException("TODO P43: implement your solution");
-    }
+  public void push(int value) {
+    throw new UnsupportedOperationException("TODO P43: implement your solution");
+  }
 
-    public OptionalInt pop() {
-        throw new UnsupportedOperationException("TODO P43: implement your solution");
-    }
+  public OptionalInt pop() {
+    throw new UnsupportedOperationException("TODO P43: implement your solution");
+  }
 
-    public boolean remove(int value) {
-        throw new UnsupportedOperationException("TODO P43: implement your solution");
-    }
+  public boolean remove(int value) {
+    throw new UnsupportedOperationException("TODO P43: implement your solution");
+  }
 
-    public Set<Integer> values() {
-        throw new UnsupportedOperationException("TODO P43: implement your solution");
-    }
+  public Set<Integer> values() {
+    throw new UnsupportedOperationException("TODO P43: implement your solution");
+  }
 
-    public List<Integer> orderedValues() {
-        throw new UnsupportedOperationException("TODO P43: implement your solution");
-    }
+  public List<Integer> orderedValues() {
+    throw new UnsupportedOperationException("TODO P43: implement your solution");
+  }
 
-    public InsertionOrderedSet intersect(InsertionOrderedSet other) {
-        throw new UnsupportedOperationException("TODO P43: implement your solution");
-    }
+  public InsertionOrderedSet intersect(InsertionOrderedSet other) {
+    throw new UnsupportedOperationException("TODO P43: implement your solution");
+  }
 }

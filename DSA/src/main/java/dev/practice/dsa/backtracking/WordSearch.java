@@ -1,7 +1,5 @@
 package dev.practice.dsa.backtracking;
 
-import java.util.*;
-
 /*
  * D17 — Find a word in a grid
  * Rectangular char grid, up to 6x6. Word up to 15 chars; move horizontally or vertically, no cell reuse per path. Empty word is true, empty board with nonempty word false. Restore any temporary board edits.
@@ -12,7 +10,7 @@ import java.util.*;
 public class WordSearch {
 
 
-    public boolean exists(char[][] board, String word) {
-        throw new UnsupportedOperationException("TODO D17: implement your solution");
-    }
+  public boolean exists(char[][] board, String word) {
+    throw new UnsupportedOperationException("TODO D17: implement your solution");
+  }
 }

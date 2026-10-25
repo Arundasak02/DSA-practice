@@ -1,32 +1,42 @@
 package dev.practice;
 
-import org.junit.jupiter.api.Test;
-import java.nio.file.*;
-import java.util.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.regex.Pattern;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class WorkspaceSmokeTest {
-    @Test void catalogMatchesExerciseFilesAndTests() throws Exception {
-        String catalog = Files.readString(Path.of("catalog.json"));
-        var entries = Pattern.compile("\"file\": \"([^\"]+)\",\\s*\"test\": \"([^\"]+)\"").matcher(catalog);
-        Set<String> indexed = new HashSet<>();
-        while (entries.find()) {
-            String source = entries.group(1);
-            assertTrue(indexed.add(source), "Duplicate catalog path: " + source);
-            assertTrue(Files.isRegularFile(Path.of(source)), source);
-            assertTrue(Files.isRegularFile(Path.of(entries.group(2))), entries.group(2));
-            assertTrue(Files.readString(Path.of(source)).contains("Run: ./mvnw"), "Missing exercise brief: " + source);
-        }
-        Set<String> actual = new HashSet<>();
-        for (String track : List.of("dsa", "backend", "streams", "patterns/exercises")) {
-            try (var paths = Files.walk(Path.of("src/main/java/dev/practice", track))) {
-                paths.filter(p -> p.toString().endsWith(".java"))
-                     .filter(p -> !p.getFileName().toString().equals("Employee.java"))
-                     .map(p -> p.toString().replace('\\', '/')).forEach(actual::add);
-            }
-        }
-        assertFalse(indexed.isEmpty());
-        assertEquals(actual, indexed);
+
+  @Test
+  void catalogMatchesExerciseFilesAndTests() throws Exception {
+    String catalog = Files.readString(Path.of("catalog.json"));
+    var entries = Pattern.compile("\"file\": \"([^\"]+)\",\\s*\"test\": \"([^\"]+)\"")
+        .matcher(catalog);
+    Set<String> indexed = new HashSet<>();
+    while (entries.find()) {
+      String source = entries.group(1);
+      assertTrue(indexed.add(source), "Duplicate catalog path: " + source);
+      assertTrue(Files.isRegularFile(Path.of(source)), source);
+      assertTrue(Files.isRegularFile(Path.of(entries.group(2))), entries.group(2));
+      assertTrue(Files.readString(Path.of(source)).contains("Run: ./mvnw"),
+          "Missing exercise brief: " + source);
     }
+    Set<String> actual = new HashSet<>();
+    for (String track : List.of("dsa", "backend", "streams", "patterns/exercises")) {
+      try (var paths = Files.walk(Path.of("src/main/java/dev/practice", track))) {
+        paths.filter(p -> p.toString().endsWith(".java"))
+            .filter(p -> !p.getFileName().toString().equals("Employee.java"))
+            .map(p -> p.toString().replace('\\', '/')).forEach(actual::add);
+      }
+    }
+    assertFalse(indexed.isEmpty());
+    assertEquals(actual, indexed);
+  }
 }

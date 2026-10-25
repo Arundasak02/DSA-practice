@@ -1,6 +1,7 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
 
 /*
  * JS08 — Convert list to map with duplicate IDs | 25 minutes
@@ -20,7 +21,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS08LatestEmployee {
-    public Map<String,Employee> latest(List<Employee> employees) {
-        throw new UnsupportedOperationException("TODO JS08: implement your solution");
-    }
+
+  public Map<String, Employee> latest(List<Employee> employees) {
+    throw new UnsupportedOperationException("TODO JS08: implement your solution");
+  }
 }

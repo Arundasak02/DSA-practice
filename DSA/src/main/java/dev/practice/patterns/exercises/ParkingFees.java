@@ -1,7 +1,6 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
+import java.util.Map;
 
 /*
  * DP01 — Parking-lot fee policies | 45 minutes
@@ -21,8 +20,23 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class ParkingFees {
-    @FunctionalInterface public interface FeePolicy { long cents(long minutes); }
-    public interface Service { long quote(String type, long minutes); }
-    public static Service service(Map<String, FeePolicy> policies) { throw new UnsupportedOperationException("TODO DP01"); }
-    public static FeePolicy hourly(long rateCents) { throw new UnsupportedOperationException("TODO DP01"); }
+
+  public static Service service(Map<String, FeePolicy> policies) {
+    throw new UnsupportedOperationException("TODO DP01");
+  }
+
+  public static FeePolicy hourly(long rateCents) {
+    throw new UnsupportedOperationException("TODO DP01");
+  }
+
+  @FunctionalInterface
+  public interface FeePolicy {
+
+    long cents(long minutes);
+  }
+
+  public interface Service {
+
+    long quote(String type, long minutes);
+  }
 }

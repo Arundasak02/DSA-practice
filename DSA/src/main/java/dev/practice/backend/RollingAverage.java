@@ -21,14 +21,19 @@ package dev.practice.backend;
  * Source: https://leetcode.com/discuss/post/8281420/
  */
 public class RollingAverage {
-    public RollingAverage(int windowSize) {
-        if (windowSize <= 0) throw new IllegalArgumentException("windowSize must be positive");
-        // TODO: initialize bounded state.
+
+  public RollingAverage(int windowSize) {
+    if (windowSize <= 0) {
+      throw new IllegalArgumentException("windowSize must be positive");
     }
-    public void accept(int value) {
-        throw new UnsupportedOperationException("TODO P63: implement your solution");
-    }
-    public java.util.OptionalDouble average() {
-        throw new UnsupportedOperationException("TODO P63: implement your solution");
-    }
+    // TODO: initialize bounded state.
+  }
+
+  public void accept(int value) {
+    throw new UnsupportedOperationException("TODO P63: implement your solution");
+  }
+
+  public java.util.OptionalDouble average() {
+    throw new UnsupportedOperationException("TODO P63: implement your solution");
+  }
 }

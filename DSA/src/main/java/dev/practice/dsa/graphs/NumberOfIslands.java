@@ -1,9 +1,5 @@
 package dev.practice.dsa.graphs;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P27 — Count islands in a grid | 25 minutes
  * Evidence: Recommended.
@@ -23,7 +19,7 @@ import java.math.*;
  */
 public class NumberOfIslands {
 
-    public int count(char[][] grid) {
-        throw new UnsupportedOperationException("TODO P27: implement your solution");
-    }
+  public int count(char[][] grid) {
+    throw new UnsupportedOperationException("TODO P27: implement your solution");
+  }
 }

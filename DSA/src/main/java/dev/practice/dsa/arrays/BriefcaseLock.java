@@ -1,9 +1,5 @@
 package dev.practice.dsa.arrays;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P06 — Minimum rotations of a combination lock | 15 minutes
  * Evidence: Reported · Berlin senior Go; wheel rules reconstructed.
@@ -25,7 +21,7 @@ import java.math.*;
  */
 public class BriefcaseLock {
 
-    public int minimumMoves(String target) {
-        throw new UnsupportedOperationException("TODO P06: implement your solution");
-    }
+  public int minimumMoves(String target) {
+    throw new UnsupportedOperationException("TODO P06: implement your solution");
+  }
 }

@@ -12,19 +12,22 @@ package dev.practice.patterns.creational;
  * Try: explain how you would inject different settings into a test instead.
  */
 public class SingletonExample {
-    enum AppSettings {
-        INSTANCE;
 
-        private final String currency = "EUR";
+  public static void main(String[] args) {
+    AppSettings first = AppSettings.INSTANCE;
+    AppSettings second = AppSettings.INSTANCE;
+    System.out.println("Same instance: " + (first == second));
+    System.out.println("Currency: " + first.currency());
+  }
 
-        public String currency() { return currency; }
+  enum AppSettings {
+    INSTANCE;
+
+    private final String currency = "EUR";
+
+    public String currency() {
+      return currency;
     }
-
-    public static void main(String[] args) {
-        AppSettings first = AppSettings.INSTANCE;
-        AppSettings second = AppSettings.INSTANCE;
-        System.out.println("Same instance: " + (first == second));
-        System.out.println("Currency: " + first.currency());
-    }
-    // Output: Same instance: true / Currency: EUR
+  }
+  // Output: Same instance: true / Currency: EUR
 }

@@ -1,7 +1,5 @@
 package dev.practice.dsa.strings;
 
-import java.util.*;
-
 /*
  * SM10 — Check normalized palindrome | 20 minutes
  * Evidence: Recommended string/two-pointer practice; not established as a DH question
@@ -20,7 +18,8 @@ import java.util.*;
  * Source STREAM: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Stream.html
  */
 public class Palindrome {
-    public boolean check(String text) {
-        throw new UnsupportedOperationException("TODO SM10: implement your solution");
-    }
+
+  public boolean check(String text) {
+    throw new UnsupportedOperationException("TODO SM10: implement your solution");
+  }
 }

@@ -1,9 +1,5 @@
 package dev.practice.backend;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P35 — Deduplicate events with an expiry window | 40 minutes
  * Evidence: Recommended · stream-processing family reported for Java SDE2; dedup task authored.
@@ -28,14 +24,16 @@ import java.math.*;
  * Source S24: https://leetcode.com/discuss/post/8281420/
  */
 public class EventDeduplicator {
-    public EventDeduplicator(long ttlMillis) {
-        // TODO: initialize state.
-    }
-    public boolean accept(String eventId, long now) {
-        throw new UnsupportedOperationException("TODO P35: implement your solution");
-    }
 
-    public int retainedIds() {
-        throw new UnsupportedOperationException("TODO P35: implement your solution");
-    }
+  public EventDeduplicator(long ttlMillis) {
+    // TODO: initialize state.
+  }
+
+  public boolean accept(String eventId, long now) {
+    throw new UnsupportedOperationException("TODO P35: implement your solution");
+  }
+
+  public int retainedIds() {
+    throw new UnsupportedOperationException("TODO P35: implement your solution");
+  }
 }

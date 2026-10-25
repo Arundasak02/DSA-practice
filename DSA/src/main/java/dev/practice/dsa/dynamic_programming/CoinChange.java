@@ -1,9 +1,5 @@
 package dev.practice.dsa.dynamic_programming;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P30 — Minimum coins for an amount | 35 minutes
  * Evidence: Recommended.
@@ -23,7 +19,7 @@ import java.math.*;
  */
 public class CoinChange {
 
-    public int minimum(int[] coins, int amount) {
-        throw new UnsupportedOperationException("TODO P30: implement your solution");
-    }
+  public int minimum(int[] coins, int amount) {
+    throw new UnsupportedOperationException("TODO P30: implement your solution");
+  }
 }

@@ -1,7 +1,5 @@
 package dev.practice.dsa.two_pointers;
 
-import java.util.*;
-
 /*
  * D04 — Two sum in a sorted array
  * Ascending sorted input; exactly one pair exists. Return zero-based indices i<j. Target is long. O(n) time, O(1) space.
@@ -12,7 +10,7 @@ import java.util.*;
 public class TwoSumSorted {
 
 
-    public int[] find(int[] values, long target) {
-        throw new UnsupportedOperationException("TODO D04: implement your solution");
-    }
+  public int[] find(int[] values, long target) {
+    throw new UnsupportedOperationException("TODO D04: implement your solution");
+  }
 }

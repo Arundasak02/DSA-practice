@@ -1,6 +1,6 @@
 package dev.practice.dsa.strings;
 
-import java.util.*;
+import java.util.List;
 
 /*
  * SM07 — Group anagrams | 25 minutes
@@ -20,7 +20,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class AnagramGroups {
-    public List<List<String>> group(List<String> words) {
-        throw new UnsupportedOperationException("TODO SM07: implement your solution");
-    }
+
+  public List<List<String>> group(List<String> words) {
+    throw new UnsupportedOperationException("TODO SM07: implement your solution");
+  }
 }

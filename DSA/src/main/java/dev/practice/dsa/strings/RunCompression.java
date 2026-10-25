@@ -1,7 +1,5 @@
 package dev.practice.dsa.strings;
 
-import java.util.*;
-
 /*
  * SM08 — Encode consecutive runs | 25 minutes
  * Evidence: Recommended string scanning; not established as a DH question
@@ -18,7 +16,8 @@ import java.util.*;
  * Run: ./mvnw -Dtest=RunCompressionTest test
  */
 public class RunCompression {
-    public String encode(String text) {
-        throw new UnsupportedOperationException("TODO SM08: implement your solution");
-    }
+
+  public String encode(String text) {
+    throw new UnsupportedOperationException("TODO SM08: implement your solution");
+  }
 }

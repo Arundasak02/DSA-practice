@@ -1,7 +1,7 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
+import java.util.List;
+import java.util.Optional;
 
 /*
  * DP05 — Composable pre-trade validation chain | 45 minutes
@@ -20,9 +20,26 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class TradeValidation {
-    public record Trade(long quantity, long priceCents) {}
-    @FunctionalInterface public interface Check { Optional<String> validate(Trade trade); }
-    public static Check chain(List<Check> checks) { throw new UnsupportedOperationException("TODO DP05"); }
-    public static Check positiveQuantity() { throw new UnsupportedOperationException("TODO DP05"); }
-    public static Check maxNotional(long limit) { throw new UnsupportedOperationException("TODO DP05"); }
+
+  public static Check chain(List<Check> checks) {
+    throw new UnsupportedOperationException("TODO DP05");
+  }
+
+  public static Check positiveQuantity() {
+    throw new UnsupportedOperationException("TODO DP05");
+  }
+
+  public static Check maxNotional(long limit) {
+    throw new UnsupportedOperationException("TODO DP05");
+  }
+
+  @FunctionalInterface
+  public interface Check {
+
+    Optional<String> validate(Trade trade);
+  }
+
+  public record Trade(long quantity, long priceCents) {
+
+  }
 }

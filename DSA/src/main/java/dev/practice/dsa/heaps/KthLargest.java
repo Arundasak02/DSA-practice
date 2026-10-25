@@ -1,9 +1,5 @@
 package dev.practice.dsa.heaps;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P05 — Largest, second-largest and kth-largest | 25 minutes
  * Evidence: Reported · Berlin SE II; duplicate policy added.
@@ -23,7 +19,7 @@ import java.math.*;
  */
 public class KthLargest {
 
-    public int find(int[] values, int k) {
-        throw new UnsupportedOperationException("TODO P05: implement your solution");
-    }
+  public int find(int[] values, int k) {
+    throw new UnsupportedOperationException("TODO P05: implement your solution");
+  }
 }

@@ -1,8 +1,5 @@
 package dev.practice.patterns.exercises;
 
-import java.util.*;
-import java.util.function.*;
-
 /*
  * DP04 — Order lifecycle with valid transitions | 45 minutes
  * Patterns to practise: State
@@ -18,7 +15,21 @@ import java.util.function.*;
  * References: docs/DESIGN_PATTERNS.md#sources-and-evidence
  */
 public class OrderLifecycle {
-    public enum Status { NEW, PAID, SHIPPED, CANCELLED }
-    public interface Order { Status status(); void pay(); void ship(); void cancel(); }
-    public static Order create() { throw new UnsupportedOperationException("TODO DP04"); }
+
+  public static Order create() {
+    throw new UnsupportedOperationException("TODO DP04");
+  }
+
+  public enum Status {NEW, PAID, SHIPPED, CANCELLED}
+
+  public interface Order {
+
+    Status status();
+
+    void pay();
+
+    void ship();
+
+    void cancel();
+  }
 }

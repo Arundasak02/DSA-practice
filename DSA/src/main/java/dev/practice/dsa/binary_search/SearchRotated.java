@@ -1,7 +1,5 @@
 package dev.practice.dsa.binary_search;
 
-import java.util.*;
-
 /*
  * D09 — Search a rotated sorted array
  * Strictly increasing array rotated zero or more positions; no duplicates. Return target index or -1. Empty allowed. O(log n) time.
@@ -12,7 +10,7 @@ import java.util.*;
 public class SearchRotated {
 
 
-    public int find(int[] values, int target) {
-        throw new UnsupportedOperationException("TODO D09: implement your solution");
-    }
+  public int find(int[] values, int target) {
+    throw new UnsupportedOperationException("TODO D09: implement your solution");
+  }
 }

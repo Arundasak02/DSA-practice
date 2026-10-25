@@ -21,8 +21,12 @@ package dev.practice.dsa.hashing;
  * Source: https://leetcode.com/discuss/post/1201101/delivery-hero-interview-question-no-idea-how-to-solve-atm/
  */
 public class AllTwoSumPairs {
-    public record Pair(int first, int second) {}
-    public java.util.List<Pair> find(int[] values, long target) {
-        throw new UnsupportedOperationException("TODO P64: implement your solution");
-    }
+
+  public java.util.List<Pair> find(int[] values, long target) {
+    throw new UnsupportedOperationException("TODO P64: implement your solution");
+  }
+
+  public record Pair(int first, int second) {
+
+  }
 }

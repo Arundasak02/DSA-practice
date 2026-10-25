@@ -1,6 +1,7 @@
 package dev.practice.streams;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
 
 /*
  * JS07 — Partition by salary threshold | 25 minutes
@@ -19,7 +20,8 @@ import java.util.*;
  * Source COLLECT: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html
  */
 public class JS07SalaryPartition {
-    public Map<Boolean,List<Employee>> split(List<Employee> employees, long threshold) {
-        throw new UnsupportedOperationException("TODO JS07: implement your solution");
-    }
+
+  public Map<Boolean, List<Employee>> split(List<Employee> employees, long threshold) {
+    throw new UnsupportedOperationException("TODO JS07: implement your solution");
+  }
 }

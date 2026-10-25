@@ -1,9 +1,5 @@
 package dev.practice.dsa.intervals;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P18 — Minimum simultaneous meeting rooms | 25 minutes
  * Evidence: Recommended.
@@ -23,7 +19,7 @@ import java.math.*;
  */
 public class MeetingRooms {
 
-    public int minimum(int[][] intervals) {
-        throw new UnsupportedOperationException("TODO P18: implement your solution");
-    }
+  public int minimum(int[][] intervals) {
+    throw new UnsupportedOperationException("TODO P18: implement your solution");
+  }
 }

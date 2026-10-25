@@ -1,8 +1,6 @@
 package dev.practice.backend;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
+import java.util.List;
 
 /*
  * P36 — Debug a small invoice service | 30 minutes
@@ -27,13 +25,17 @@ import java.math.*;
  * Source S5: https://leetcode.com/discuss/post/6976664/interview-experience-software-engineer-b-s19v/
  */
 public class InvoiceCalculator {
-    public record Line(long unitCents, int quantity) {}
-    public long calculate(List<Line> lines, int discountPercent) {
-        // Intentionally buggy. Read the contract and use the tests to diagnose it.
-        int subtotal = 0;
-        for (Line line : lines) {
-            subtotal += (int) line.unitCents();
-        }
-        return subtotal * (100 - discountPercent) / 100;
+
+  public long calculate(List<Line> lines, int discountPercent) {
+    // Intentionally buggy. Read the contract and use the tests to diagnose it.
+    int subtotal = 0;
+    for (Line line : lines) {
+      subtotal += (int) line.unitCents();
     }
+    return subtotal * (100 - discountPercent) / 100;
+  }
+
+  public record Line(long unitCents, int quantity) {
+
+  }
 }

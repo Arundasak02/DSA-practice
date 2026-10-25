@@ -1,9 +1,5 @@
 package dev.practice.backend;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.math.*;
-
 /*
  * P10 — Per-client sliding-window rate limiter | 40 minutes
  * Evidence: Adapted · Berlin API-abuse follow-up; algorithm not specified.
@@ -26,10 +22,12 @@ import java.math.*;
  * Source S4: https://leetcode.com/discuss/post/4168834/Delivery-Hero-SEII/
  */
 public class SlidingWindowLimiter {
-    public SlidingWindowLimiter(int limit, long windowMillis) {
-        // TODO: store configuration and initialize your data structures.
-    }
-    public boolean allow(String client, long now) {
-        throw new UnsupportedOperationException("TODO P10: implement your solution");
-    }
+
+  public SlidingWindowLimiter(int limit, long windowMillis) {
+    // TODO: store configuration and initialize your data structures.
+  }
+
+  public boolean allow(String client, long now) {
+    throw new UnsupportedOperationException("TODO P10: implement your solution");
+  }
 }

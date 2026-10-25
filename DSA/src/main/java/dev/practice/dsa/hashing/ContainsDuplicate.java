@@ -1,7 +1,5 @@
 package dev.practice.dsa.hashing;
 
-import java.util.*;
-
 /*
  * D01 — Detect duplicates
  * Return whether any integer occurs twice. Empty input returns false. Target O(n) expected time.
@@ -12,7 +10,7 @@ import java.util.*;
 public class ContainsDuplicate {
 
 
-    public boolean contains(int[] values) {
-        throw new UnsupportedOperationException("TODO D01: implement your solution");
-    }
+  public boolean contains(int[] values) {
+    throw new UnsupportedOperationException("TODO D01: implement your solution");
+  }
 }

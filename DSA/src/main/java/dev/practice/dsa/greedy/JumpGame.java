@@ -17,7 +17,8 @@ package dev.practice.dsa.greedy;
  * Source S20: https://www.glassdoor.com/Interview/Delivery-Hero-Senior-Software-Engineer-Interview-Questions-EI_IE504556.0%2C13_KO14%2C38.htm
  */
 public class JumpGame {
-    public boolean canReach(int[] jumps) {
-        throw new UnsupportedOperationException("TODO P61: implement your solution");
-    }
+
+  public boolean canReach(int[] jumps) {
+    throw new UnsupportedOperationException("TODO P61: implement your solution");
+  }
 }
